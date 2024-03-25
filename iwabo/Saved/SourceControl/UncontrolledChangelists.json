@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/StarterContent/Particles/P_Fire.uasset"
+			]
+		}
+	]
+}
