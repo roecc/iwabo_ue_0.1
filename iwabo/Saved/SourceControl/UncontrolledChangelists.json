@@ -8,7 +8,20 @@
 				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/StarterContent/Particles/P_Fire.uasset",
 				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/ThirdPerson/Input/Actions/IA_Run.uasset",
-				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/ThirdPerson/Input/IMC_Default.uasset"
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/Blueprints/Enum_DialogueState.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/Blueprints/AC_Dialogue_Base.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/DialogueSystem/Blueprints/Enum_DialogueState.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/DialogueSystem/Blueprints/AC_Dialogue_Base.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/DialogueSystem/UI/WB_Dialogue.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/DialogueSystem/UI/WB_DialogueOption.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/DialogueSystem/Blueprints/BPI_Interactible.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/DialogueSystem/Blueprints/NPC_Base.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/DialogueSystem/Blueprints/BPI_Interactable.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/DialogueSystem/Blueprints/NPC_Mary-Ann.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/ThirdPerson/Input/Actions/IA_Interact.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WS/NFT4TGKNFSYFAMHW39QOJH.uasset",
+				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/DialogueSystem/Blueprints/AC_Dialogue_Mary-Ann.uasset"
 			]
 		}
 	]
