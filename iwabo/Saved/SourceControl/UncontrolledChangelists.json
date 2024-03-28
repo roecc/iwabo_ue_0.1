@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/StarterContent/Particles/P_Fire.uasset",
 				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Content/ThirdPerson/Input/Actions/IA_Run.uasset",
