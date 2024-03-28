@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "iwabo",
+			"Path": "../Source/iwabo.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "iwaboEditor",
+			"Path": "../Source/iwaboEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
