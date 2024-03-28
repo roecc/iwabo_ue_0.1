@@ -14,60 +14,72 @@ void EmptyLinkFunctionForGeneratedCodeDialogueExtensionBPLibrary() {}
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
 	UPackage* Z_Construct_UPackage__Script_DialogueExtension();
 // End Cross Module References
-	DEFINE_FUNCTION(UDialogueExtensionBPLibrary::execDialogueExtensionSampleFunction)
+	DEFINE_FUNCTION(UDialogueExtensionBPLibrary::execTestFunction)
 	{
-		P_GET_PROPERTY(FFloatProperty,Z_Param_Param);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_Input1);
+		P_GET_PROPERTY(FIntProperty,Z_Param_Input2);
+		P_GET_PROPERTY_REF(FStrProperty,Z_Param_Out_ReturnValue2);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		*(float*)Z_Param__Result=UDialogueExtensionBPLibrary::DialogueExtensionSampleFunction(Z_Param_Param);
+		*(bool*)Z_Param__Result=UDialogueExtensionBPLibrary::TestFunction(Z_Param_Input1,Z_Param_Input2,Z_Param_Out_ReturnValue2);
 		P_NATIVE_END;
 	}
 	void UDialogueExtensionBPLibrary::StaticRegisterNativesUDialogueExtensionBPLibrary()
 	{
 		UClass* Class = UDialogueExtensionBPLibrary::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "DialogueExtensionSampleFunction", &UDialogueExtensionBPLibrary::execDialogueExtensionSampleFunction },
+			{ "TestFunction", &UDialogueExtensionBPLibrary::execTestFunction },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
-	struct Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics
+	struct Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics
 	{
-		struct DialogueExtensionBPLibrary_eventDialogueExtensionSampleFunction_Parms
+		struct DialogueExtensionBPLibrary_eventTestFunction_Parms
 		{
-			float Param;
-			float ReturnValue;
+			float Input1;
+			int32 Input2;
+			FString ReturnValue2;
+			bool ReturnValue;
 		};
-		static const UECodeGen_Private::FFloatPropertyParams NewProp_Param;
-		static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_Input1;
+		static const UECodeGen_Private::FIntPropertyParams NewProp_Input2;
+		static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue2;
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::NewProp_Param = { "Param", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(DialogueExtensionBPLibrary_eventDialogueExtensionSampleFunction_Parms, Param), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(DialogueExtensionBPLibrary_eventDialogueExtensionSampleFunction_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::NewProp_Param,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::NewProp_ReturnValue,
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::NewProp_Input1 = { "Input1", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(DialogueExtensionBPLibrary_eventTestFunction_Parms, Input1), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::NewProp_Input2 = { "Input2", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(DialogueExtensionBPLibrary_eventTestFunction_Parms, Input2), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::NewProp_ReturnValue2 = { "ReturnValue2", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(DialogueExtensionBPLibrary_eventTestFunction_Parms, ReturnValue2), METADATA_PARAMS(0, nullptr) };
+	void Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((DialogueExtensionBPLibrary_eventTestFunction_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(DialogueExtensionBPLibrary_eventTestFunction_Parms), &Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::NewProp_Input1,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::NewProp_Input2,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::NewProp_ReturnValue2,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::Function_MetaDataParams[] = {
-		{ "Category", "DialogueExtensionTesting" },
-		{ "DisplayName", "Execute Sample function" },
-		{ "Keywords", "DialogueExtension sample test testing" },
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/DialogueExtensionBPLibrary.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UDialogueExtensionBPLibrary, nullptr, "DialogueExtensionSampleFunction", nullptr, nullptr, Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::PropPointers), sizeof(Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::DialogueExtensionBPLibrary_eventDialogueExtensionSampleFunction_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::Function_MetaDataParams), Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::Function_MetaDataParams) };
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::PropPointers) < 2048);
-	static_assert(sizeof(Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::DialogueExtensionBPLibrary_eventDialogueExtensionSampleFunction_Parms) < MAX_uint16);
-	UFunction* Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction()
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UDialogueExtensionBPLibrary, nullptr, "TestFunction", nullptr, nullptr, Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::PropPointers), sizeof(Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::DialogueExtensionBPLibrary_eventTestFunction_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04442401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::Function_MetaDataParams), Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::DialogueExtensionBPLibrary_eventTestFunction_Parms) < MAX_uint16);
+	UFunction* Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction_Statics::FuncParams);
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -92,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogueExtensionBPLibrary() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueExtensionBPLibrary_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UDialogueExtensionBPLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UDialogueExtensionBPLibrary_DialogueExtensionSampleFunction, "DialogueExtensionSampleFunction" }, // 604084999
+		{ &Z_Construct_UFunction_UDialogueExtensionBPLibrary_TestFunction, "TestFunction" }, // 780836616
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueExtensionBPLibrary_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -137,6 +149,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogueExtensionBPLibrary() {}
 	{
 		return UDialogueExtensionBPLibrary::StaticClass();
 	}
+	UDialogueExtensionBPLibrary::UDialogueExtensionBPLibrary(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UDialogueExtensionBPLibrary);
 	UDialogueExtensionBPLibrary::~UDialogueExtensionBPLibrary() {}
 	struct Z_CompiledInDeferFile_FID_admin_Documents_projects_iwabo_unreal_iwabo_ue_0_1_iwabo_Plugins_DialogueExtension_Source_DialogueExtension_Public_DialogueExtensionBPLibrary_h_Statics
@@ -144,9 +157,9 @@ void EmptyLinkFunctionForGeneratedCodeDialogueExtensionBPLibrary() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_admin_Documents_projects_iwabo_unreal_iwabo_ue_0_1_iwabo_Plugins_DialogueExtension_Source_DialogueExtension_Public_DialogueExtensionBPLibrary_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UDialogueExtensionBPLibrary, UDialogueExtensionBPLibrary::StaticClass, TEXT("UDialogueExtensionBPLibrary"), &Z_Registration_Info_UClass_UDialogueExtensionBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDialogueExtensionBPLibrary), 1766849201U) },
+		{ Z_Construct_UClass_UDialogueExtensionBPLibrary, UDialogueExtensionBPLibrary::StaticClass, TEXT("UDialogueExtensionBPLibrary"), &Z_Registration_Info_UClass_UDialogueExtensionBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDialogueExtensionBPLibrary), 4162727884U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_admin_Documents_projects_iwabo_unreal_iwabo_ue_0_1_iwabo_Plugins_DialogueExtension_Source_DialogueExtension_Public_DialogueExtensionBPLibrary_h_186810585(TEXT("/Script/DialogueExtension"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_admin_Documents_projects_iwabo_unreal_iwabo_ue_0_1_iwabo_Plugins_DialogueExtension_Source_DialogueExtension_Public_DialogueExtensionBPLibrary_h_1714369382(TEXT("/Script/DialogueExtension"),
 		Z_CompiledInDeferFile_FID_admin_Documents_projects_iwabo_unreal_iwabo_ue_0_1_iwabo_Plugins_DialogueExtension_Source_DialogueExtension_Public_DialogueExtensionBPLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_admin_Documents_projects_iwabo_unreal_iwabo_ue_0_1_iwabo_Plugins_DialogueExtension_Source_DialogueExtension_Public_DialogueExtensionBPLibrary_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

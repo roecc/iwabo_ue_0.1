@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogueExtension_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xAD945910,
+				0x44A027A3,
 				0x709467E2,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeDialogueExtension_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_DialogueExtension.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DialogueExtension(Z_Construct_UPackage__Script_DialogueExtension, TEXT("/Script/DialogueExtension"), Z_Registration_Info_UPackage__Script_DialogueExtension, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xAD945910, 0x709467E2));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DialogueExtension(Z_Construct_UPackage__Script_DialogueExtension, TEXT("/Script/DialogueExtension"), Z_Registration_Info_UPackage__Script_DialogueExtension, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x44A027A3, 0x709467E2));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

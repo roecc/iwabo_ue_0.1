@@ -2,6 +2,12 @@
 
 #pragma once
 
+/*
+#include "CoreMinimal.h"
+#include "K2Node.h"
+#include "Kismet/KismetSystemLibrary.h"
+*/
+
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "DialogueExtensionBPLibrary.generated.h"
 
@@ -25,8 +31,13 @@
 UCLASS()
 class UDialogueExtensionBPLibrary : public UBlueprintFunctionLibrary
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Execute Sample function", Keywords = "DialogueExtension sample test testing"), Category = "DialogueExtensionTesting")
-	static float DialogueExtensionSampleFunction(float Param);
+	UFUNCTION(BlueprintCallable)
+	static bool TestFunction(float Input1, int Input2, FString& ReturnValue2);
+
+	/*
+	UFUNCTION(BlueprintCallable)
+	static TArray<FString> GetOutputPinNames(UK2Node* Node);
+	*/
 };
