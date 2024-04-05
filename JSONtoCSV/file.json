@@ -7,7 +7,7 @@
   "creatorVersion": "2.3.16",
   "schemaName": "Harlowe 3 to JSON",
   "schemaVersion": "0.0.6",
-  "createdAtMs": 1712338462961,
+  "createdAtMs": 1712355440958,
   "passages": [
     {
       "name": "1",
@@ -82,10 +82,16 @@
       "name": "1.1.1",
       "tags": "MA",
       "id": "5",
-      "text": "",
-      "links": [],
+      "text": "this is a new line, that wasnt there before.\n\n[[exactly->1.1.1.1]]",
+      "links": [
+        {
+          "linkText": "exactly",
+          "passageName": "1.1.1.1",
+          "original": "[[exactly->1.1.1.1]]"
+        }
+      ],
       "hooks": [],
-      "cleanText": ""
+      "cleanText": "this is a new line, that wasnt there before."
     },
     {
       "name": "1.2.1",
@@ -124,6 +130,15 @@
       ],
       "hooks": [],
       "cleanText": "Not quite yet, but you could help me set the table."
+    },
+    {
+      "name": "1.1.1.1",
+      "tags": "",
+      "id": "9",
+      "text": "NEWWWW!",
+      "links": [],
+      "hooks": [],
+      "cleanText": "NEWWWW!"
     }
   ]
 }

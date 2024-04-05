@@ -1,5 +1,6 @@
 import json
 import csv
+import subprocess
 
 # Define the path to your JSON file
 file_path = 'file.json'  # Assuming the JSON file is named "file.json" and located in the same folder as your script
@@ -56,3 +57,6 @@ with open(csv_file_path, 'w', newline='') as csv_file:
 		#writer.writerow([name, tags, text])
 
 print("CSV file has been generated successfully.")
+
+script_path = 'CSVtoSheets.py'
+subprocess.call(['python3', script_path, 'arg1', 'arg2'])
