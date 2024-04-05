@@ -2,75 +2,75 @@
 
 {
   "uuid": "EE16138F-4F28-4291-B766-35C99C45467A",
-  "name": "iwabo_test0",
+  "name": "A1D1_MA",
   "creator": "Twine",
   "creatorVersion": "2.3.16",
   "schemaName": "Harlowe 3 to JSON",
   "schemaVersion": "0.0.6",
-  "createdAtMs": 1712263096171,
+  "createdAtMs": 1712338462961,
   "passages": [
     {
-      "name": "A1D1_MA_1",
+      "name": "1",
       "tags": "MA",
       "id": "1",
-      "text": "Hey there, Honey.\n\n[[silent->A1D1_MA_1.0]]\n[[How are you today?->A1D1_MA_1.1]]\n[[Is dinner done yet?->A1D1_MA_1.2]]",
+      "text": "Hey there, Honey.\n\n[[-->1.0]]\n[[How are you today?->1.1]]\n[[Is dinner done yet?->1.2]]",
       "links": [
         {
-          "linkText": "silent",
-          "passageName": "A1D1_MA_1.0",
-          "original": "[[silent->A1D1_MA_1.0]]"
+          "linkText": "-",
+          "passageName": "1.0",
+          "original": "[[-->1.0]]"
         },
         {
           "linkText": "How are you today?",
-          "passageName": "A1D1_MA_1.1",
-          "original": "[[How are you today?->A1D1_MA_1.1]]"
+          "passageName": "1.1",
+          "original": "[[How are you today?->1.1]]"
         },
         {
           "linkText": "Is dinner done yet?",
-          "passageName": "A1D1_MA_1.2",
-          "original": "[[Is dinner done yet?->A1D1_MA_1.2]]"
+          "passageName": "1.2",
+          "original": "[[Is dinner done yet?->1.2]]"
         }
       ],
       "hooks": [],
       "cleanText": "Hey there, Honey."
     },
     {
-      "name": "A1D1_MA_1.0",
+      "name": "1.0",
       "tags": "MA",
       "id": "2",
-      "text": "Uhm... Daryl?\n\n[[Hm?->A1D1_MA_1.0.1]]",
+      "text": "Uhm... Daryl?\n\n[[Hm?->1.0.1]]",
       "links": [
         {
           "linkText": "Hm?",
-          "passageName": "A1D1_MA_1.0.1",
-          "original": "[[Hm?->A1D1_MA_1.0.1]]"
+          "passageName": "1.0.1",
+          "original": "[[Hm?->1.0.1]]"
         }
       ],
       "hooks": [],
       "cleanText": "Uhm... Daryl?"
     },
     {
-      "name": "A1D1_MA_1.1",
+      "name": "1.1",
       "tags": "MA",
       "id": "3",
-      "text": "Pretty good, though June is keeping me quite Busy.\n\n[[Cool.->A1D1_MA_1.1.1]]\n[[I see.->A1D1_MA_1.1.1]]",
+      "text": "Pretty good, though June is keeping me quite Busy.\n\n[[Cool.->1.1.1]]\n[[I see.->1.1.1]]",
       "links": [
         {
           "linkText": "Cool.",
-          "passageName": "A1D1_MA_1.1.1",
-          "original": "[[Cool.->A1D1_MA_1.1.1]]"
+          "passageName": "1.1.1",
+          "original": "[[Cool.->1.1.1]]"
         },
         {
           "linkText": "I see.",
-          "passageName": "A1D1_MA_1.1.1",
-          "original": "[[I see.->A1D1_MA_1.1.1]]"
+          "passageName": "1.1.1",
+          "original": "[[I see.->1.1.1]]"
         }
       ],
       "hooks": [],
       "cleanText": "Pretty good, though June is keeping me quite Busy."
     },
     {
-      "name": "A1D1_MA_1.0.1",
+      "name": "1.0.1",
       "tags": "MA",
       "id": "4",
       "text": "Whatever.",
@@ -79,7 +79,7 @@
       "cleanText": "Whatever."
     },
     {
-      "name": "A1D1_MA_1.1.1",
+      "name": "1.1.1",
       "tags": "MA",
       "id": "5",
       "text": "",
@@ -88,7 +88,7 @@
       "cleanText": ""
     },
     {
-      "name": "A1D1_MA_1.2.1",
+      "name": "1.2.1",
       "tags": "MA",
       "id": "6",
       "text": "Thank you Honey!",
@@ -97,7 +97,7 @@
       "cleanText": "Thank you Honey!"
     },
     {
-      "name": "A1D1_MA_1.2.2",
+      "name": "1.2.2",
       "tags": "MA",
       "id": "7",
       "text": "Very helpful, thanks...",
@@ -106,20 +106,20 @@
       "cleanText": "Very helpful, thanks..."
     },
     {
-      "name": "A1D1_MA_1.2",
+      "name": "1.2",
       "tags": "MA",
       "id": "8",
-      "text": "Not quite yet, but you could help me set the table.\n\n[[Yeah, alright.->A1D1_MA_1.2.1]]\n[[Nah, I'll wait.->A1D1_MA_1.2.2]]",
+      "text": "Not quite yet, but you could help me set the table.\n\n[[Yeah, alright.->1.2.1]]\n[[Nah, I'll wait.->1.2.2]]",
       "links": [
         {
           "linkText": "Yeah, alright.",
-          "passageName": "A1D1_MA_1.2.1",
-          "original": "[[Yeah, alright.->A1D1_MA_1.2.1]]"
+          "passageName": "1.2.1",
+          "original": "[[Yeah, alright.->1.2.1]]"
         },
         {
           "linkText": "Nah, I'll wait.",
-          "passageName": "A1D1_MA_1.2.2",
-          "original": "[[Nah, I'll wait.->A1D1_MA_1.2.2]]"
+          "passageName": "1.2.2",
+          "original": "[[Nah, I'll wait.->1.2.2]]"
         }
       ],
       "hooks": [],

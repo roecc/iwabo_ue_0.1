@@ -36,10 +36,15 @@ with open(csv_file_path, 'w', newline='') as csv_file:
 		link = ''
 		writer.writerow([nodeID, en_line, link, speaker])
 		speaker = 3
+		optID = 1
 		for option in item['links']:
 			en_line = option['linkText']
+			if (option['linkText'] == '-'):
+				en_line = ''
+				optID = 0
 			link = option['passageName']
-			writer.writerow([nodeID, en_line, link, speaker])
+			writer.writerow([(nodeID + '_' + str(optID)), en_line, link, speaker])
+			optID += 1
 
 	# Write data to CSV file
 	#for item in data:
