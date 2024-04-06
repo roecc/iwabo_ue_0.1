@@ -17,6 +17,7 @@ spreadsheet_id = '1r99AGR6T89tDEZpKjTxjeNddMECrmyCdPkcifk7bwVw'  # Replace with 
 
 # Specify the range where you want to paste the CSV data
 range_name = 'Sheet2!A1'  # Replace 'Sheet1' with your sheet name and 'A1' with the cell where you want to start pasting the data
+range_to_clear = 'Sheet2!A:D'
 
 # Specify the path to your local CSV file
 csv_file_path = 'output.csv'  # Replace with the path to your CSV file
@@ -25,8 +26,16 @@ csv_file_path = 'output.csv'  # Replace with the path to your CSV file
 with open(csv_file_path, 'r') as file:
     csv_data = list(csv.reader(file))
 
+clear_request = service.spreadsheets().values().clear(
+    spreadsheetId=spreadsheet_id,
+    range=range_to_clear,
+    body={}
+)
+
+clear_response = clear_request.execute()
+
 # Prepare the request to update the Google Sheet
-request = service.spreadsheets().values().update(
+update_request = service.spreadsheets().values().update(
     spreadsheetId=spreadsheet_id,
     range=range_name,
     valueInputOption='RAW',
@@ -34,6 +43,6 @@ request = service.spreadsheets().values().update(
 )
 
 # Execute the request to update the Google Sheet
-response = request.execute()
+update_response = update_request.execute()
 
 print('CSV data imported successfully to Google Sheet!')
