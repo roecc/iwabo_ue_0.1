@@ -2,7 +2,6 @@
 -pipe
 -I"."
 -I"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Source/iwabo/Private"
--I"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Intermediate/Build/Mac/UnrealEditor/Inc/iwabo/UHT"
 -I"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Source"
 -I"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Source/iwabo/Public"
 -I"Runtime/Core/Public"
