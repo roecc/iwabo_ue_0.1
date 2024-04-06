@@ -35,11 +35,11 @@ class MyHandler(FileSystemEventHandler):
                     source_content = read_file_as_string(event.src_path)
                     write_string_to_file('file.json', source_content)
                     #time.sleep(5)
-                    #script_path = 'CSVtoSheets.py'
-                    #subprocess.call(['python3', script_path])
                     print("Content replaced successfully.")
                     time.sleep(10)
                     delete_file(event.src_path)
+                    script_path = 'JSONtoCSV.py'
+                    subprocess.call(['python3', script_path])
 
 # Create an observer
 observer = Observer()

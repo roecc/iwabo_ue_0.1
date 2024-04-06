@@ -5,7 +5,7 @@
   "creatorVersion": "2.3.16",
   "schemaName": "Twine to JSON",
   "schemaVersion": "0.0.6",
-  "createdAtMs": 1712366373411,
+  "createdAtMs": 1712413729327,
   "passages": [
     {
       "name": "1",
@@ -76,14 +76,8 @@
       "name": "1.1.1",
       "tags": "MA",
       "id": "5",
-      "text": "this is a new line, that wasnt there before.\n\n[[exactly->1.1.1.1]]",
-      "links": [
-        {
-          "linkText": "exactly",
-          "passageName": "1.1.1.1",
-          "original": "[[exactly->1.1.1.1]]"
-        }
-      ],
+      "text": "this is a new line, that wasnt there before.",
+      "links": [],
       "cleanText": "this is a new line, that wasnt there before."
     },
     {
@@ -120,28 +114,6 @@
         }
       ],
       "cleanText": "Not quite yet, but you could help me set the table."
-    },
-    {
-      "name": "1.1.1.1",
-      "tags": "",
-      "id": "9",
-      "text": "NEWWWW!\n\n[[somethong->stupid]]",
-      "links": [
-        {
-          "linkText": "somethong",
-          "passageName": "stupid",
-          "original": "[[somethong->stupid]]"
-        }
-      ],
-      "cleanText": "NEWWWW!"
-    },
-    {
-      "name": "stupid",
-      "tags": "",
-      "id": "10",
-      "text": "Double-click this passage to edit it.",
-      "links": [],
-      "cleanText": "Double-click this passage to edit it."
     }
   ]
 }
