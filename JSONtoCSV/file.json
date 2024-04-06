@@ -1,13 +1,11 @@
-
-
 {
   "uuid": "EE16138F-4F28-4291-B766-35C99C45467A",
   "name": "A1D1_MA",
   "creator": "Twine",
   "creatorVersion": "2.3.16",
-  "schemaName": "Harlowe 3 to JSON",
+  "schemaName": "Twine to JSON",
   "schemaVersion": "0.0.6",
-  "createdAtMs": 1712355440958,
+  "createdAtMs": 1712366373411,
   "passages": [
     {
       "name": "1",
@@ -31,7 +29,6 @@
           "original": "[[Is dinner done yet?->1.2]]"
         }
       ],
-      "hooks": [],
       "cleanText": "Hey there, Honey."
     },
     {
@@ -46,7 +43,6 @@
           "original": "[[Hm?->1.0.1]]"
         }
       ],
-      "hooks": [],
       "cleanText": "Uhm... Daryl?"
     },
     {
@@ -66,7 +62,6 @@
           "original": "[[I see.->1.1.1]]"
         }
       ],
-      "hooks": [],
       "cleanText": "Pretty good, though June is keeping me quite Busy."
     },
     {
@@ -75,7 +70,6 @@
       "id": "4",
       "text": "Whatever.",
       "links": [],
-      "hooks": [],
       "cleanText": "Whatever."
     },
     {
@@ -90,7 +84,6 @@
           "original": "[[exactly->1.1.1.1]]"
         }
       ],
-      "hooks": [],
       "cleanText": "this is a new line, that wasnt there before."
     },
     {
@@ -99,7 +92,6 @@
       "id": "6",
       "text": "Thank you Honey!",
       "links": [],
-      "hooks": [],
       "cleanText": "Thank you Honey!"
     },
     {
@@ -108,7 +100,6 @@
       "id": "7",
       "text": "Very helpful, thanks...",
       "links": [],
-      "hooks": [],
       "cleanText": "Very helpful, thanks..."
     },
     {
@@ -128,18 +119,29 @@
           "original": "[[Nah, I'll wait.->1.2.2]]"
         }
       ],
-      "hooks": [],
       "cleanText": "Not quite yet, but you could help me set the table."
     },
     {
       "name": "1.1.1.1",
       "tags": "",
       "id": "9",
-      "text": "NEWWWW!",
-      "links": [],
-      "hooks": [],
+      "text": "NEWWWW!\n\n[[somethong->stupid]]",
+      "links": [
+        {
+          "linkText": "somethong",
+          "passageName": "stupid",
+          "original": "[[somethong->stupid]]"
+        }
+      ],
       "cleanText": "NEWWWW!"
+    },
+    {
+      "name": "stupid",
+      "tags": "",
+      "id": "10",
+      "text": "Double-click this passage to edit it.",
+      "links": [],
+      "cleanText": "Double-click this passage to edit it."
     }
   ]
 }
-
