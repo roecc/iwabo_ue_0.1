@@ -1,119 +1,73 @@
 {
-  "uuid": "EE16138F-4F28-4291-B766-35C99C45467A",
-  "name": "A1D1_MA",
+  "uuid": "3EBC5A45-238B-4871-A1FA-72350FFFD1C9",
+  "name": "A1D2_test",
   "creator": "Twine",
   "creatorVersion": "2.3.16",
   "schemaName": "Twine to JSON",
   "schemaVersion": "0.0.6",
-  "createdAtMs": 1712414671098,
+  "createdAtMs": 1712417459033,
   "passages": [
     {
       "name": "1",
       "tags": "MA",
       "id": "1",
-      "text": "Hey there, Honey.\n\n[[-->1.0]]\n[[How are you today?->1.1]]\n[[Is dinner done yet?->1.2]]",
+      "text": "Can you find June for me?\n\n[[I'll try.->1.1]]\n[[Can't you see i'm busy?->1.2]]\n[[Already found her->1.3]]",
       "links": [
         {
-          "linkText": "-",
-          "passageName": "1.0",
-          "original": "[[-->1.0]]"
-        },
-        {
-          "linkText": "How are you today?",
+          "linkText": "I'll try.",
           "passageName": "1.1",
-          "original": "[[How are you today?->1.1]]"
+          "original": "[[I'll try.->1.1]]"
         },
         {
-          "linkText": "Is dinner done yet?",
+          "linkText": "Can't you see i'm busy?",
           "passageName": "1.2",
-          "original": "[[Is dinner done yet?->1.2]]"
-        }
-      ],
-      "cleanText": "Hey there, Honey."
-    },
-    {
-      "name": "1.0",
-      "tags": "MA",
-      "id": "2",
-      "text": "Uhm... Daryl?\n\n[[Hm?->1.0.1]]",
-      "links": [
+          "original": "[[Can't you see i'm busy?->1.2]]"
+        },
         {
-          "linkText": "Hm?",
-          "passageName": "1.0.1",
-          "original": "[[Hm?->1.0.1]]"
+          "linkText": "Already found her",
+          "passageName": "1.3",
+          "original": "[[Already found her->1.3]]"
         }
       ],
-      "cleanText": "Uhm... Daryl?"
+      "cleanText": "Can you find June for me?"
     },
     {
       "name": "1.1",
       "tags": "MA",
-      "id": "3",
-      "text": "Pretty good, though June is keeping me quite Busy.\n\n[[Cool.->1.1.1]]\n[[I see.->1.1.1]]",
-      "links": [
-        {
-          "linkText": "Cool.",
-          "passageName": "1.1.1",
-          "original": "[[Cool.->1.1.1]]"
-        },
-        {
-          "linkText": "I see.",
-          "passageName": "1.1.1",
-          "original": "[[I see.->1.1.1]]"
-        }
-      ],
-      "cleanText": "Pretty good, though June is keeping me quite Busy."
-    },
-    {
-      "name": "1.0.1",
-      "tags": "MA",
-      "id": "4",
-      "text": "Whatever.",
+      "id": "2",
+      "text": "Thank you.",
       "links": [],
-      "cleanText": "Whatever."
-    },
-    {
-      "name": "1.1.1",
-      "tags": "MA",
-      "id": "5",
-      "text": "this is a new line, that wasnt there before.",
-      "links": [],
-      "cleanText": "this is a new line, that wasnt there before."
-    },
-    {
-      "name": "1.2.1",
-      "tags": "MA",
-      "id": "6",
-      "text": "Thank you Honey!",
-      "links": [],
-      "cleanText": "Thank you Honey!"
-    },
-    {
-      "name": "1.2.2",
-      "tags": "MA",
-      "id": "7",
-      "text": "Very helpful, thanks...",
-      "links": [],
-      "cleanText": "Very helpful, thanks..."
+      "cleanText": "Thank you."
     },
     {
       "name": "1.2",
       "tags": "MA",
-      "id": "8",
-      "text": "Not quite yet, but you could help me set the table.\n\n[[Yeah, alright.->1.2.1]]\n[[Nah, I'll wait.->1.2.2]]",
+      "id": "3",
+      "text": "Sorry for asking I guess.\n\n[[-->1.2.0]]",
       "links": [
         {
-          "linkText": "Yeah, alright.",
-          "passageName": "1.2.1",
-          "original": "[[Yeah, alright.->1.2.1]]"
-        },
-        {
-          "linkText": "Nah, I'll wait.",
-          "passageName": "1.2.2",
-          "original": "[[Nah, I'll wait.->1.2.2]]"
+          "linkText": "-",
+          "passageName": "1.2.0",
+          "original": "[[-->1.2.0]]"
         }
       ],
-      "cleanText": "Not quite yet, but you could help me set the table."
+      "cleanText": "Sorry for asking I guess."
+    },
+    {
+      "name": "1.3",
+      "tags": "MA",
+      "id": "4",
+      "text": "Oh? Where is she then?",
+      "links": [],
+      "cleanText": "Oh? Where is she then?"
+    },
+    {
+      "name": "1.2.0",
+      "tags": "A",
+      "id": "5",
+      "text": "I'll go find her.",
+      "links": [],
+      "cleanText": "I'll go find her."
     }
   ]
 }

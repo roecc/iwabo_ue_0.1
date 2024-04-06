@@ -58,5 +58,6 @@ with open(csv_file_path, 'w', newline='') as csv_file:
 
 print("CSV file has been generated successfully.")
 
+sheet_name = data['name']
 script_path = 'CSVtoSheets.py'
-subprocess.call(['python3', script_path])
+subprocess.call(['python3', script_path, sheet_name])
