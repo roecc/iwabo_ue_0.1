@@ -1,73 +1,102 @@
 {
-  "uuid": "3EBC5A45-238B-4871-A1FA-72350FFFD1C9",
-  "name": "A1D2_test",
+  "uuid": "39A52B64-367A-48A4-AFDD-CB64F1576587",
+  "name": "interchar_test",
   "creator": "Twine",
   "creatorVersion": "2.3.16",
   "schemaName": "Twine to JSON",
   "schemaVersion": "0.0.6",
-  "createdAtMs": 1712417459033,
+  "createdAtMs": 1712672264493,
   "passages": [
     {
       "name": "1",
-      "tags": "MA",
+      "tags": "J",
       "id": "1",
-      "text": "Can you find June for me?\n\n[[I'll try.->1.1]]\n[[Can't you see i'm busy?->1.2]]\n[[Already found her->1.3]]",
-      "links": [
-        {
-          "linkText": "I'll try.",
-          "passageName": "1.1",
-          "original": "[[I'll try.->1.1]]"
-        },
-        {
-          "linkText": "Can't you see i'm busy?",
-          "passageName": "1.2",
-          "original": "[[Can't you see i'm busy?->1.2]]"
-        },
-        {
-          "linkText": "Already found her",
-          "passageName": "1.3",
-          "original": "[[Already found her->1.3]]"
-        }
-      ],
-      "cleanText": "Can you find June for me?"
-    },
-    {
-      "name": "1.1",
-      "tags": "MA",
-      "id": "2",
-      "text": "Thank you.",
-      "links": [],
-      "cleanText": "Thank you."
-    },
-    {
-      "name": "1.2",
-      "tags": "MA",
-      "id": "3",
-      "text": "Sorry for asking I guess.\n\n[[-->1.2.0]]",
+      "text": "Mom? Dad is looking at me funny.\n\n[[-->1.0]]",
       "links": [
         {
           "linkText": "-",
-          "passageName": "1.2.0",
-          "original": "[[-->1.2.0]]"
+          "passageName": "1.0",
+          "original": "[[-->1.0]]"
         }
       ],
-      "cleanText": "Sorry for asking I guess."
+      "cleanText": "Mom? Dad is looking at me funny."
     },
     {
-      "name": "1.3",
-      "tags": "MA",
-      "id": "4",
-      "text": "Oh? Where is she then?",
-      "links": [],
-      "cleanText": "Oh? Where is she then?"
-    },
-    {
-      "name": "1.2.0",
+      "name": "1.0",
       "tags": "A",
+      "id": "2",
+      "text": "Stop being such a baby.\n\n[[-->1.0.0]]",
+      "links": [
+        {
+          "linkText": "-",
+          "passageName": "1.0.0",
+          "original": "[[-->1.0.0]]"
+        }
+      ],
+      "cleanText": "Stop being such a baby."
+    },
+    {
+      "name": "1.0.0",
+      "tags": "MA",
+      "id": "3",
+      "text": "April, be nice to your sister.\n\n[[-->1.0.0.0]]\n[[[Stop looking]->1.0.0.1]]",
+      "links": [
+        {
+          "linkText": "-",
+          "passageName": "1.0.0.0",
+          "original": "[[-->1.0.0.0]]"
+        },
+        {
+          "linkText": "[Stop looking]",
+          "passageName": "1.0.0.1",
+          "original": "[[[Stop looking]->1.0.0.1]]"
+        }
+      ],
+      "cleanText": "April, be nice to your sister."
+    },
+    {
+      "name": "1.0.0.0",
+      "tags": "",
+      "id": "4",
+      "text": "He isn't stopping!\n\n[[-->1.0.0.0.0]]",
+      "links": [
+        {
+          "linkText": "-",
+          "passageName": "1.0.0.0.0",
+          "original": "[[-->1.0.0.0.0]]"
+        }
+      ],
+      "cleanText": "He isn't stopping!"
+    },
+    {
+      "name": "1.0.0.0.0",
+      "tags": "MA",
       "id": "5",
-      "text": "I'll go find her.",
+      "text": "Daryl, would you stop it?\n\n[[[Stop]->1.0.0.0.0.1]]",
+      "links": [
+        {
+          "linkText": "[Stop]",
+          "passageName": "1.0.0.0.0.1",
+          "original": "[[[Stop]->1.0.0.0.0.1]]"
+        }
+      ],
+      "cleanText": "Daryl, would you stop it?"
+    },
+    {
+      "name": "1.0.0.1",
+      "tags": "J",
+      "id": "6",
+      "text": "Ok, he stopped.",
       "links": [],
-      "cleanText": "I'll go find her."
+      "cleanText": "Ok, he stopped."
+    },
+    {
+      "name": "1.0.0.0.0.1",
+      "tags": "",
+      "id": "7",
+      "text": "",
+      "links": [],
+      "cleanText": ""
     }
   ]
 }

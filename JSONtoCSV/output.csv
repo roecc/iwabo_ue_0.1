@@ -1,10 +1,14 @@
 nodeID,en_line,link,speaker
-1,Can you find June for me?,,0
-1_1,I'll try.,1.1,3
-1_2,Can't you see i'm busy?,1.2,3
-1_3,Already found her,1.3,3
-1.1,Thank you.,,0
-1.2,Sorry for asking I guess.,,0
-1.2_0,,1.2.0,3
-1.3,Oh? Where is she then?,,0
-1.2.0,I'll go find her.,,1
+1,Mom? Dad is looking at me funny.,,2
+1_0,,1.0,3
+1.0,Stop being such a baby.,,1
+1.0_0,,1.0.0,3
+1.0.0,"April, be nice to your sister.",,0
+1.0.0_0,,1.0.0.0,3
+1.0.0_1,[Stop looking],1.0.0.1,3
+1.0.0.0,He isn't stopping!,,3
+1.0.0.0_0,,1.0.0.0.0,3
+1.0.0.0.0,"Daryl, would you stop it?",,0
+1.0.0.0.0_1,[Stop],1.0.0.0.0.1,3
+1.0.0.1,"Ok, he stopped.",,2
+1.0.0.0.0.1,,,3
