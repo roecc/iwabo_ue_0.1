@@ -1,102 +1,122 @@
+
+
 {
-  "uuid": "39A52B64-367A-48A4-AFDD-CB64F1576587",
-  "name": "interchar_test",
+  "uuid": "EE16138F-4F28-4291-B766-35C99C45467A",
+  "name": "A1D1_MA",
   "creator": "Twine",
   "creatorVersion": "2.3.16",
   "schemaName": "Twine to JSON",
   "schemaVersion": "0.0.6",
-  "createdAtMs": 1712672264493,
+  "createdAtMs": 1712904159858,
   "passages": [
     {
       "name": "1",
-      "tags": "J",
+      "tags": "MA",
       "id": "1",
-      "text": "Mom? Dad is looking at me funny.\n\n[[-->1.0]]",
+      "text": "Hey there, Honey.\n1.2|2.4\n\n[[-->1.0]]\n[[How are you today?->1.1]]\n[[Is dinner done yet?->1.2]]",
       "links": [
         {
           "linkText": "-",
           "passageName": "1.0",
           "original": "[[-->1.0]]"
+        },
+        {
+          "linkText": "How are you today?",
+          "passageName": "1.1",
+          "original": "[[How are you today?->1.1]]"
+        },
+        {
+          "linkText": "Is dinner done yet?",
+          "passageName": "1.2",
+          "original": "[[Is dinner done yet?->1.2]]"
         }
       ],
-      "cleanText": "Mom? Dad is looking at me funny."
+      "cleanText": "Hey there, Honey.\n1.2|2.4"
     },
     {
       "name": "1.0",
-      "tags": "A",
+      "tags": "MA",
       "id": "2",
-      "text": "Stop being such a baby.\n\n[[-->1.0.0]]",
+      "text": "Uhm... Daryl?\n\n[[Hm?->1.0.1]]",
       "links": [
         {
-          "linkText": "-",
-          "passageName": "1.0.0",
-          "original": "[[-->1.0.0]]"
+          "linkText": "Hm?",
+          "passageName": "1.0.1",
+          "original": "[[Hm?->1.0.1]]"
         }
       ],
-      "cleanText": "Stop being such a baby."
+      "cleanText": "Uhm... Daryl?"
     },
     {
-      "name": "1.0.0",
+      "name": "1.1",
       "tags": "MA",
       "id": "3",
-      "text": "April, be nice to your sister.\n\n[[-->1.0.0.0]]\n[[[Stop looking]->1.0.0.1]]",
+      "text": "Pretty good, though June is keeping me quite Busy.\n\n[[Cool.->1.1.1]]\n[[I see.->1.1.1]]",
       "links": [
         {
-          "linkText": "-",
-          "passageName": "1.0.0.0",
-          "original": "[[-->1.0.0.0]]"
+          "linkText": "Cool.",
+          "passageName": "1.1.1",
+          "original": "[[Cool.->1.1.1]]"
         },
         {
-          "linkText": "[Stop looking]",
-          "passageName": "1.0.0.1",
-          "original": "[[[Stop looking]->1.0.0.1]]"
+          "linkText": "I see.",
+          "passageName": "1.1.1",
+          "original": "[[I see.->1.1.1]]"
         }
       ],
-      "cleanText": "April, be nice to your sister."
+      "cleanText": "Pretty good, though June is keeping me quite Busy."
     },
     {
-      "name": "1.0.0.0",
-      "tags": "",
+      "name": "1.0.1",
+      "tags": "MA",
       "id": "4",
-      "text": "He isn't stopping!\n\n[[-->1.0.0.0.0]]",
-      "links": [
-        {
-          "linkText": "-",
-          "passageName": "1.0.0.0.0",
-          "original": "[[-->1.0.0.0.0]]"
-        }
-      ],
-      "cleanText": "He isn't stopping!"
+      "text": "Whatever.",
+      "links": [],
+      "cleanText": "Whatever."
     },
     {
-      "name": "1.0.0.0.0",
+      "name": "1.1.1",
       "tags": "MA",
       "id": "5",
-      "text": "Daryl, would you stop it?\n\n[[[Stop]->1.0.0.0.0.1]]",
+      "text": "this is a new line, that wasnt there before.",
+      "links": [],
+      "cleanText": "this is a new line, that wasnt there before."
+    },
+    {
+      "name": "1.2.1",
+      "tags": "MA",
+      "id": "6",
+      "text": "Thank you Honey!",
+      "links": [],
+      "cleanText": "Thank you Honey!"
+    },
+    {
+      "name": "1.2.2",
+      "tags": "MA",
+      "id": "7",
+      "text": "Very helpful, thanks...",
+      "links": [],
+      "cleanText": "Very helpful, thanks..."
+    },
+    {
+      "name": "1.2",
+      "tags": "MA",
+      "id": "8",
+      "text": "Not quite yet, but you could help me set the table.\n\n[[Yeah, alright.\\|Volition: 50->1.2.1]]\n[[Nah, I'll wait.->1.2.2]]",
       "links": [
         {
-          "linkText": "[Stop]",
-          "passageName": "1.0.0.0.0.1",
-          "original": "[[[Stop]->1.0.0.0.0.1]]"
+          "linkText": "Yeah, alright.\\|Volition: 50",
+          "passageName": "1.2.1",
+          "original": "[[Yeah, alright.\\|Volition: 50->1.2.1]]"
+        },
+        {
+          "linkText": "Nah, I'll wait.",
+          "passageName": "1.2.2",
+          "original": "[[Nah, I'll wait.->1.2.2]]"
         }
       ],
-      "cleanText": "Daryl, would you stop it?"
-    },
-    {
-      "name": "1.0.0.1",
-      "tags": "J",
-      "id": "6",
-      "text": "Ok, he stopped.",
-      "links": [],
-      "cleanText": "Ok, he stopped."
-    },
-    {
-      "name": "1.0.0.0.0.1",
-      "tags": "",
-      "id": "7",
-      "text": "",
-      "links": [],
-      "cleanText": ""
+      "cleanText": "Not quite yet, but you could help me set the table."
     }
   ]
 }
+

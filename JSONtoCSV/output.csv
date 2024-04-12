@@ -1,14 +1,17 @@
-nodeID,en_line,link,speaker
-1,Mom? Dad is looking at me funny.,,2
-1_0,,1.0,3
-1.0,Stop being such a baby.,,1
-1.0_0,,1.0.0,3
-1.0.0,"April, be nice to your sister.",,0
-1.0.0_0,,1.0.0.0,3
-1.0.0_1,[Stop looking],1.0.0.1,3
-1.0.0.0,He isn't stopping!,,3
-1.0.0.0_0,,1.0.0.0.0,3
-1.0.0.0.0,"Daryl, would you stop it?",,0
-1.0.0.0.0_1,[Stop],1.0.0.0.0.1,3
-1.0.0.1,"Ok, he stopped.",,2
-1.0.0.0.0.1,,,3
+nodeID,en_line,link,condition,speaker
+1,"Hey there, Honey.",,,0
+1_0,,1.0,,3
+1_1,How are you today?,1.1,,3
+1_2,Is dinner done yet?,1.2,,3
+1.0,Uhm... Daryl?,,,0
+1.0_1,Hm?,1.0.1,,3
+1.1,"Pretty good, though June is keeping me quite Busy.",,,0
+1.1_1,Cool.,1.1.1,,3
+1.1_2,I see.,1.1.1,,3
+1.0.1,Whatever.,,,0
+1.1.1,"this is a new line, that wasnt there before.",,,0
+1.2.1,Thank you Honey!,,,0
+1.2.2,"Very helpful, thanks...",,,0
+1.2,"Not quite yet, but you could help me set the table.",,,0
+1.2_1,"Yeah, alright.",1.2.1,Volition: 50,3
+1.2_2,"Nah, I'll wait.",1.2.2,,3

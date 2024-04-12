@@ -13,7 +13,7 @@ with open(file_path, 'r') as json_file:
 csv_file_path = 'output.csv'
 
 # Define CSV header
-csv_header = ['nodeID', 'en_line', 'link', 'speaker']
+csv_header = ['nodeID', 'en_line', 'link', 'condition', 'speaker']
 
 # Open CSV file in write mode
 with open(csv_file_path, 'w', newline='') as csv_file:
@@ -35,16 +35,22 @@ with open(csv_file_path, 'w', newline='') as csv_file:
 		elif(item['tags'].split(',')[0] == "D"):
 			speaker = 3
 		link = ''
-		writer.writerow([nodeID, en_line, link, speaker])
+		writer.writerow([nodeID, en_line, link, '', speaker])
 		speaker = 3
 		optID = 1
 		for option in item['links']:
-			en_line = option['linkText']
+			line_arr = option['linkText'].split("\\|")
+			en_line = line_arr[0]
+			#add conditional if specified
+			if (len(line_arr) > 1):
+				condition = line_arr[1]
+			else:
+				condition = ''
 			if (option['linkText'] == '-'):
 				en_line = ''
 				optID = 0
 			link = option['passageName']
-			writer.writerow([(nodeID + '_' + str(optID)), en_line, link, speaker])
+			writer.writerow([(nodeID + '_' + str(optID)), en_line, link, condition, speaker])
 			optID += 1
 
 	# Write data to CSV file
