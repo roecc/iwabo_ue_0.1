@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DialogueExtension.cpp.obj": [
+			"DialogueExtension.init.gen.cpp.obj",
+			"DialogueExtensionBPLibrary.gen.cpp.obj",
+			"DialogueExtension.cpp.obj",
+			"DialogueExtensionBPLibrary.cpp.obj"
+		]
+	}
+}

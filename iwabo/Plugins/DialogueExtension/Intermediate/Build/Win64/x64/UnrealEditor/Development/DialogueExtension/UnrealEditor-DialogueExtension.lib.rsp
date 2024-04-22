@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DialogueExtension.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\docs\___IWABO\unreal\prototypes\iwabo_ue_0.1\iwabo\Intermediate\Build\Win64\x64\iwaboEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\docs\___IWABO\unreal\prototypes\iwabo_ue_0.1\iwabo\Plugins\DialogueExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\DialogueExtension\Module.DialogueExtension.cpp.obj"
+"D:\docs\___IWABO\unreal\prototypes\iwabo_ue_0.1\iwabo\Plugins\DialogueExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\DialogueExtension\Default.rc2.res"
+/OUT:"D:\docs\___IWABO\unreal\prototypes\iwabo_ue_0.1\iwabo\Plugins\DialogueExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\DialogueExtension\UnrealEditor-DialogueExtension.lib"
