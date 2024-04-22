@@ -2544,3 +2544,1043 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.22-14.25.56:373][652]LogViewport: Scene viewport resized to 1086x740, mode Windowed.
 [2024.04.22-14.25.57:089][652]LogViewport: Scene viewport resized to 2197x1820, mode Windowed.
 [2024.04.22-14.26.01:988][ 71]LogViewport: Scene viewport resized to 1335x912, mode Windowed.
+[2024.04.22-14.27.16:233][ 28]LogSlate: Window 'MI_Outline_Inst' being destroyed
+[2024.04.22-14.27.16:238][ 28]LogSlate: Window 'MI_Outline_Inst' being destroyed
+[2024.04.22-14.27.16:253][ 28]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-14.27.16:253][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-14.28.01:659][700]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.22-14.28.01:667][700]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.22-14.28.01:667][700]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.22-14.28.01:671][700]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 4 ms (total: 48 ms)
+[2024.04.22-14.28.01:671][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-14.28.01:671][700]PIE: New page: PIE session: ThirdPersonMap (22 Apr 2024, 18:28:01)
+[2024.04.22-14.28.01:671][700]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.04.22-14.28.01:673][700]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.04.22-14.28.01:712][701]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.22-14.28.01:721][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008935s)
+[2024.04.22-14.28.01:721][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008974s)
+[2024.04.22-14.28.01:725][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.04.22-14.28.01:730][701]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-14.28.01:730][701]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-14.28.01:730][701]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.22-14.28.01:731][701]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.22-14.28.01:731][701]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.22-14.28.01:731][701]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.22-14.28.01:731][701]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.22-14.28.01:733][701]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.22-14.28.01:733][701]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 829 ms)
+[2024.04.22-14.28.01:733][701]LogPlayLevel: PIE: World Init took: (0.003157s)
+[2024.04.22-14.28.01:733][701]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.22-14.28.01:733][701]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-14.28.01:733][701]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-14.28.01:733][701]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-14.28.01:733][701]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-14.28.01:733][701]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-14.28.01:733][701]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-14.28.01:733][701]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-14.28.01:733][701]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-14.28.01:733][701]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-14.28.01:733][701]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-14.28.01:733][701]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-14.28.01:735][701]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-14.28.01:777][701]LogAudioMixer: Display: Using Audio Hardware Device LG TV SSCR2 (NVIDIA High Definition Audio)
+[2024.04.22-14.28.01:777][701]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-14.28.01:777][701]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-14.28.01:777][701]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-14.28.01:778][701]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.22-14.28.01:778][701]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.04.22-14.28.01:779][701]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.22-14.28.01:779][701]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.22-14.28.01:779][701]LogInit: FAudioDevice initialized with ID 12.
+[2024.04.22-14.28.01:779][701]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2024.04.22-14.28.01:779][701]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.22-14.28.01:837][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-14.28.01:837][701]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.22-14.28.01:849][701]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.22-16.28.01
+[2024.04.22-14.28.01:849][701]LogWorld: Bringing up level for play took: 0.012488
+[2024.04.22-14.28.01:856][701]PIE: Server logged in
+[2024.04.22-14.28.01:857][701]PIE: Play in editor total start time 0.19 seconds.
+[2024.04.22-14.28.01:876][701]LogViewport: Scene viewport resized to 3852x2020, mode Windowed.
+[2024.04.22-14.28.06:938][ 60]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.06:938][ 60]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_0
+[2024.04.22-14.28.06:938][ 60]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.06:938][ 60]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_0
+[2024.04.22-14.28.07:015][ 65]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.07:015][ 65]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_1
+[2024.04.22-14.28.07:015][ 65]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.07:015][ 65]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_1
+[2024.04.22-14.28.07:471][ 96]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.07:471][ 96]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_2
+[2024.04.22-14.28.07:471][ 96]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.07:471][ 96]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_2
+[2024.04.22-14.28.08:324][157]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.08:324][157]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_3
+[2024.04.22-14.28.08:324][157]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.08:324][157]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_3
+[2024.04.22-14.28.08:785][189]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.08:785][189]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_4
+[2024.04.22-14.28.08:785][189]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.08:785][189]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_4
+[2024.04.22-14.28.09:434][231]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.09:434][231]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_5
+[2024.04.22-14.28.09:434][231]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.09:434][231]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_5
+[2024.04.22-14.28.12:383][433]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.12:384][433]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_6
+[2024.04.22-14.28.12:384][433]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.12:384][433]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_6
+[2024.04.22-14.28.12:459][438]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.12:459][438]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_7
+[2024.04.22-14.28.12:459][438]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.12:459][438]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_7
+[2024.04.22-14.28.17:922][836]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.17:922][836]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_8
+[2024.04.22-14.28.17:923][836]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.17:923][836]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_8
+[2024.04.22-14.28.19:688][955]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.19:688][955]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_9
+[2024.04.22-14.28.19:688][955]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.19:688][955]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_9
+[2024.04.22-14.28.21:275][ 56]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.21:275][ 56]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_10
+[2024.04.22-14.28.21:275][ 56]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.28.21:275][ 56]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_10.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_10
+[2024.04.22-14.29.21:844][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-14.29.21:845][301]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.22-14.29.21:845][301]LogSlate: Window 'iwabo Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.22-14.29.21:849][301]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-14.29.21:850][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-14.29.21:850][301]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.22-14.29.21:853][301]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-14.29.21:856][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-14.29.21:864][301]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.22-14.29.21:864][301]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.22-14.29.21:866][301]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.22-14.29.21:874][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.04.22-14.29.21:933][302]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.04.22-14.29.54:738][824]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.29.54:802][824]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YL/3TU9D3TA4TWKNBT02OVVYL
+[2024.04.22-14.29.54:803][824]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/3TU9D3TA4TWKNBT02OVVYL7F47C4FC476E23A6653608939ED1D9FD.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YL/3TU9D3TA4TWKNBT02OVVYL.uasset'
+[2024.04.22-14.29.54:807][824]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/5M/JK96OU53GJJ96GFUBXKP3P
+[2024.04.22-14.29.54:808][824]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/JK96OU53GJJ96GFUBXKP3PBB855A414210539CE96C4197C0287B65.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/5M/JK96OU53GJJ96GFUBXKP3P.uasset'
+[2024.04.22-14.29.54:815][824]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 1.06 sec)
+[2024.04.22-14.29.54:816][824]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.22-14.29.54:816][824]LogContentValidation: Display: Validating /Game/DialogueSystem/Blueprints/NPC_June.NPC_June_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.NPC_June_C_UAID_BCD074147390E4E601_1683415167
+[2024.04.22-14.29.54:816][824]LogContentValidation: Display: Validating /Game/BuySellSystem/Sellables/BP_Sellable_Fridge.BP_Sellable_Fridge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Sellable_Fridge_C_UAID_BCD074147390CFED01_1925581899
+[2024.04.22-14.29.55:451][896]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.22-14.29.55:458][896]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.22-14.29.55:458][896]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.22-14.29.55:462][896]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3 ms (total: 52 ms)
+[2024.04.22-14.29.55:462][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-14.29.55:462][896]PIE: New page: PIE session: ThirdPersonMap (22 Apr 2024, 18:29:55)
+[2024.04.22-14.29.55:462][896]LogPlayLevel: Display: Creating online subsystem for client :Context_21
+[2024.04.22-14.29.55:464][896]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.04.22-14.29.55:505][897]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.22-14.29.55:514][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009085s)
+[2024.04.22-14.29.55:514][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.009162s)
+[2024.04.22-14.29.55:518][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.04.22-14.29.55:522][897]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-14.29.55:522][897]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-14.29.55:522][897]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.22-14.29.55:523][897]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.22-14.29.55:523][897]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.22-14.29.55:523][897]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.22-14.29.55:523][897]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.22-14.29.55:525][897]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.22-14.29.55:525][897]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 831 ms)
+[2024.04.22-14.29.55:525][897]LogPlayLevel: PIE: World Init took: (0.003012s)
+[2024.04.22-14.29.55:525][897]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.22-14.29.55:525][897]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-14.29.55:525][897]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-14.29.55:525][897]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-14.29.55:525][897]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-14.29.55:525][897]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-14.29.55:525][897]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-14.29.55:525][897]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-14.29.55:525][897]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-14.29.55:525][897]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-14.29.55:525][897]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-14.29.55:525][897]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-14.29.55:527][897]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-14.29.55:566][897]LogAudioMixer: Display: Using Audio Hardware Device LG TV SSCR2 (NVIDIA High Definition Audio)
+[2024.04.22-14.29.55:567][897]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-14.29.55:567][897]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-14.29.55:567][897]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-14.29.55:567][897]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.22-14.29.55:567][897]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.04.22-14.29.55:569][897]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.22-14.29.55:569][897]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.22-14.29.55:569][897]LogInit: FAudioDevice initialized with ID 13.
+[2024.04.22-14.29.55:569][897]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2024.04.22-14.29.55:569][897]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.22-14.29.55:622][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-14.29.55:622][897]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.22-14.29.55:634][897]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.22-16.29.55
+[2024.04.22-14.29.55:635][897]LogWorld: Bringing up level for play took: 0.012005
+[2024.04.22-14.29.55:640][897]PIE: Server logged in
+[2024.04.22-14.29.55:641][897]PIE: Play in editor total start time 0.184 seconds.
+[2024.04.22-14.29.55:659][897]LogViewport: Scene viewport resized to 3858x2020, mode Windowed.
+[2024.04.22-14.30.10:296][998]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.10:296][998]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_0
+[2024.04.22-14.30.10:296][998]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.10:296][998]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_0
+[2024.04.22-14.30.10:801][ 33]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.10:801][ 33]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_1
+[2024.04.22-14.30.10:801][ 33]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.10:801][ 33]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_1
+[2024.04.22-14.30.10:944][ 43]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.10:944][ 43]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_2
+[2024.04.22-14.30.10:944][ 43]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.10:944][ 43]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_2
+[2024.04.22-14.30.14:034][264]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.14:034][264]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_3
+[2024.04.22-14.30.14:034][264]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.14:034][264]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_3
+[2024.04.22-14.30.14:356][285]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.14:356][285]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_4
+[2024.04.22-14.30.14:356][285]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.14:356][285]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_4
+[2024.04.22-14.30.14:523][296]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.14:523][296]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_5
+[2024.04.22-14.30.14:523][296]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.14:523][296]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_5
+[2024.04.22-14.30.16:117][405]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.16:117][405]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_6
+[2024.04.22-14.30.16:117][405]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-14.30.16:117][405]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_11.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_6
+[2024.04.22-14.30.16:545][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-14.30.16:545][431]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.22-14.30.16:546][431]LogSlate: Window 'iwabo Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.22-14.30.16:550][431]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-14.30.16:551][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-14.30.16:551][431]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.22-14.30.16:554][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-14.30.16:558][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-14.30.16:565][431]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.22-14.30.16:565][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.22-14.30.16:566][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.22-14.30.16:575][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.04.22-14.30.16:700][432]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.04.22-14.30.53:238][409]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.30.53:303][409]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YL/3TU9D3TA4TWKNBT02OVVYL
+[2024.04.22-14.30.53:304][409]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/3TU9D3TA4TWKNBT02OVVYL4991A61F422E0BB3DC5B7DAD2C5FEA82.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YL/3TU9D3TA4TWKNBT02OVVYL.uasset'
+[2024.04.22-14.30.53:307][409]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/2T/GCN00BAYYN3B0CLPICSICU
+[2024.04.22-14.30.53:308][409]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/GCN00BAYYN3B0CLPICSICUB841DBD749F63872F2590BB3A25953FA.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/2T/GCN00BAYYN3B0CLPICSICU.uasset'
+[2024.04.22-14.30.53:311][409]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/5M/JK96OU53GJJ96GFUBXKP3P
+[2024.04.22-14.30.53:312][409]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/JK96OU53GJJ96GFUBXKP3PEB51BAF746855E83E9850195531F38A8.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/5M/JK96OU53GJJ96GFUBXKP3P.uasset'
+[2024.04.22-14.30.53:317][409]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.13 sec)
+[2024.04.22-14.30.53:319][409]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.22-14.30.53:319][409]LogContentValidation: Display: Validating /Game/DialogueSystem/Blueprints/NPC_June.NPC_June_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.NPC_June_C_UAID_BCD074147390E4E601_1683415167
+[2024.04.22-14.30.53:319][409]LogContentValidation: Display: Validating /Game/BuySellSystem/BP_laptop.BP_laptop_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_laptop_C_UAID_BCD0741473908EEB01_1793290313
+[2024.04.22-14.30.53:319][409]LogContentValidation: Display: Validating /Game/BuySellSystem/Sellables/BP_Sellable_Fridge.BP_Sellable_Fridge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Sellable_Fridge_C_UAID_BCD074147390CFED01_1925581899
+[2024.04.22-14.31.20:767][455]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.31.20:819][455]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW
+[2024.04.22-14.31.20:820][455]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/2QISIGK5DJNQ05US8O8FXWA113390E4FC3EF15E6FD58AE83EA350C.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset'
+[2024.04.22-14.31.20:827][455]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 1.19 sec)
+[2024.04.22-14.31.20:828][455]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2024.04.22-14.31.20:828][455]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2024.04.22-14.32.19:928][748]LogContentBrowser: Deferred new asset file creation: MI_Outline_Inst1
+[2024.04.22-14.32.19:938][748]LogContentBrowser: Creating deferred item: MI_Outline_Inst1
+[2024.04.22-14.32.19:952][749]LogContentBrowser: Renaming the item being created (Deferred Item: MI_Outline_Inst1).
+[2024.04.22-14.32.26:340][448]LogContentBrowser: Attempting asset rename: MI_Outline_Inst1 -> MI_Outline_Inst2
+[2024.04.22-14.32.26:341][448]LogContentBrowser: End creating deferred item MI_Outline_Inst1
+[2024.04.22-14.32.28:720][668]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Interactables/MI_Outline_Inst2.MI_Outline_Inst2
+[2024.04.22-14.32.28:721][668]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-14.32.28:721][668]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-14.32.28:936][668]LogViewport: Scene viewport resized to 1335x912, mode Windowed.
+[2024.04.22-14.32.34:557][177]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.32.34:646][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/MI_Outline_Inst2" FILE="D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst2.uasset" SILENT=true
+[2024.04.22-14.32.34:652][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.22-14.32.34:657][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.04.22-14.32.34:661][177]LogSavePackage: Moving output files for package: /Game/Interactables/MI_Outline_Inst2
+[2024.04.22-14.32.34:661][177]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/MI_Outline_Inst220CB782C41F753F15C2F36B0184DDBB6.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst2.uasset'
+[2024.04.22-14.32.34:668][177]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 1.31 sec)
+[2024.04.22-14.32.34:669][177]AssetCheck: New page: Asset Save: MI_Outline_Inst2
+[2024.04.22-14.32.34:669][177]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Interactables/MI_Outline_Inst2.MI_Outline_Inst2
+[2024.04.22-14.32.39:019][561]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-14.32.47:118][176]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Interactables/MI_Outline_Inst.MI_Outline_Inst
+[2024.04.22-14.32.47:120][176]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-14.32.47:121][176]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-14.32.47:142][176]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-14.32.47:253][176]LogViewport: Scene viewport resized to 1335x912, mode Windowed.
+[2024.04.22-14.32.58:934][181]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-14.33.01:358][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.04.22-14.33.02:801][395]LogSlate: Window 'Save Content' being destroyed
+[2024.04.22-14.33.02:825][395]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.33.02:887][395]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/5M/JK96OU53GJJ96GFUBXKP3P
+[2024.04.22-14.33.02:888][395]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/JK96OU53GJJ96GFUBXKP3P1CC3437E417C6226FDFF9D9200702390.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/5M/JK96OU53GJJ96GFUBXKP3P.uasset'
+[2024.04.22-14.33.02:944][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/MI_Outline_Inst" FILE="D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst.uasset" SILENT=true
+[2024.04.22-14.33.02:948][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.04.22-14.33.02:952][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.04.22-14.33.02:956][395]LogSavePackage: Moving output files for package: /Game/Interactables/MI_Outline_Inst
+[2024.04.22-14.33.02:957][395]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/MI_Outline_Inst6E405275479FEB180788EDAE2CCD6890.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst.uasset'
+[2024.04.22-14.33.02:961][395]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/S0/JZM13BJHDX5Z5XRH9E0UIQ
+[2024.04.22-14.33.02:961][395]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/JZM13BJHDX5Z5XRH9E0UIQ250408884BF48FD7D11C4B95143D2721.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/S0/JZM13BJHDX5Z5XRH9E0UIQ.uasset'
+[2024.04.22-14.33.02:964][395]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW
+[2024.04.22-14.33.02:965][395]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/2QISIGK5DJNQ05US8O8FXWAA168DEF4B73024033A476A2EBD9B56F.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset'
+[2024.04.22-14.33.02:968][395]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3F/OYTUF2CRAJVFUIJWBTGXRL
+[2024.04.22-14.33.02:968][395]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/OYTUF2CRAJVFUIJWBTGXRL031CFC524B56FD7DCF70938F3881F977.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3F/OYTUF2CRAJVFUIJWBTGXRL.uasset'
+[2024.04.22-14.33.02:978][395]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 1.46 sec)
+[2024.04.22-14.33.02:980][395]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.22-14.33.02:980][395]LogContentValidation: Display: Validating /Game/BuySellSystem/Sellables/BP_Sellable_Fridge.BP_Sellable_Fridge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Sellable_Fridge_C_UAID_BCD074147390CFED01_1925581899
+[2024.04.22-14.33.02:980][395]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Interactables/MI_Outline_Inst.MI_Outline_Inst
+[2024.04.22-14.33.02:980][395]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_UAID_2CF05D60969EA4EE01_1153095351
+[2024.04.22-14.33.02:980][395]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2024.04.22-14.33.02:980][395]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BCD0741473908CEB01_1667384959
+[2024.04.22-14.33.32:199][188]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.33.32:239][188]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/S0/JZM13BJHDX5Z5XRH9E0UIQ
+[2024.04.22-14.33.32:240][188]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/JZM13BJHDX5Z5XRH9E0UIQ32E5AFD24E469DCF6DF906AD457C844E.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/S0/JZM13BJHDX5Z5XRH9E0UIQ.uasset'
+[2024.04.22-14.33.32:248][188]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 1.51 sec)
+[2024.04.22-14.33.32:249][188]AssetCheck: New page: Asset Save: PostProcessVolume_UAID_2CF05D60969EA4EE01_1153095351
+[2024.04.22-14.33.32:249][188]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_UAID_2CF05D60969EA4EE01_1153095351
+[2024.04.22-14.34.58:670][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.34.58:723][274]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3F/OYTUF2CRAJVFUIJWBTGXRL
+[2024.04.22-14.34.58:724][274]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/OYTUF2CRAJVFUIJWBTGXRL6A680E3F415F9B7ECA45B095B6761492.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3F/OYTUF2CRAJVFUIJWBTGXRL.uasset'
+[2024.04.22-14.34.58:727][274]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/S0/JZM13BJHDX5Z5XRH9E0UIQ
+[2024.04.22-14.34.58:728][274]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/JZM13BJHDX5Z5XRH9E0UIQ50269AD9465C0FD4CC5D2B84C142E37B.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/S0/JZM13BJHDX5Z5XRH9E0UIQ.uasset'
+[2024.04.22-14.34.58:734][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 1.57 sec)
+[2024.04.22-14.34.58:735][274]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.22-14.34.58:735][274]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BCD0741473908CEB01_1667384959
+[2024.04.22-14.34.58:735][274]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_UAID_2CF05D60969EA4EE01_1153095351
+[2024.04.22-14.35.21:246][362]LogSlate: Window 'MI_Outline_Inst' being destroyed
+[2024.04.22-14.35.21:251][362]LogSlate: Window 'MI_Outline_Inst' being destroyed
+[2024.04.22-14.35.21:266][362]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-14.35.21:266][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-14.35.21:285][362]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-14.35.21:285][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-14.35.23:240][585]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.35.23:288][585]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3F/OYTUF2CRAJVFUIJWBTGXRL
+[2024.04.22-14.35.23:289][585]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/OYTUF2CRAJVFUIJWBTGXRL8B09BDB44DF15BFA1E5280860CC67B1E.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3F/OYTUF2CRAJVFUIJWBTGXRL.uasset'
+[2024.04.22-14.35.23:295][585]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 1.63 sec)
+[2024.04.22-14.35.23:296][585]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_BCD0741473908CEB01_1667384959
+[2024.04.22-14.35.23:296][585]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BCD0741473908CEB01_1667384959
+[2024.04.22-14.36.42:672][373]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-14.37.56:722][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.04.22-14.37.56:730][ 72]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/S0/JZM13BJHDX5Z5XRH9E0UIQ_Auto2
+[2024.04.22-14.37.56:730][ 72]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/JZM13BJHDX5Z5XRH9E0UIQ_Auto20BBA2FD148DE41B3B3E8C4B8109DBA14.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/S0/JZM13BJHDX5Z5XRH9E0UIQ_Auto2.uasset'
+[2024.04.22-14.37.56:732][ 72]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.018
+[2024.04.22-14.37.56:732][ 72]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.018
+[2024.04.22-14.39.24:848][542]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Interactables/M_Outline.M_Outline
+[2024.04.22-14.39.24:852][542]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-14.39.24:852][542]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-14.39.25:020][542]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.39.25:020][542]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.39.25:020][542]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.39.25:030][542]LogViewport: Scene viewport resized to 376x453, mode Windowed.
+[2024.04.22-14.39.25:117][543]LogShaderCompilers: Display: ================================================
+[2024.04.22-14.39.25:117][543]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Total job queries 130, among them cache hits 84 (64.62%)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Tracking 46 distinct input hashes that result in 27 distinct outputs (58.70%)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: RAM used: 848.98 KiB of 3.20 GiB budget. Usage: 0.03%
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Shaders Compiled: 30
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Jobs assigned 30, completed 30 (100%)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Average time worker was idle: 124.59 s
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.19 s
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Job execution time: average 0.37 s, max 0.93 s
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Job life time (pending + execution): average 0.41 s, max 0.93
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Shader code size: average 28.869 KiB, min 3.758 KiB, max 38.902 KiB
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.66 s
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Jobs were issued in 30 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Average processing rate: 8.19 jobs/sec
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Total thread time: 4.506 s
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Total thread preprocess time: 0.716 s
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Percentage time preprocessing: 15.90%
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Effective parallelization: 1.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.19 sec, max 0.23 sec, min 0.16 sec)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 0.19 sec, max 0.21 sec, min 0.18 sec)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    2 times, average 0.15 sec, max 0.16 sec, min 0.15 sec)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 0.14 sec, max 0.14 sec, min 0.13 sec)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.84% of total time (compiled    6 times, average 0.19 sec, max 0.23 sec, min 0.16 sec)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.24% of total time (compiled    6 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.22% of total time (compiled    4 times, average 0.19 sec, max 0.21 sec, min 0.18 sec)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.49% of total time (compiled    4 times, average 0.12 sec, max 0.17 sec, min 0.09 sec)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display:                                       FPostProcessMaterialPS - 7.08% of total time (compiled    3 times, average 0.11 sec, max 0.16 sec, min 0.06 sec)
+[2024.04.22-14.39.25:118][543]LogShaderCompilers: Display: ================================================
+[2024.04.22-14.39.25:143][544]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.39.25:143][544]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.39.25:143][544]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.39.27:351][700]LogViewport: Scene viewport resized to 82x38, mode Windowed.
+[2024.04.22-14.39.27:499][700]LogViewport: Scene viewport resized to 163x77, mode Windowed.
+[2024.04.22-14.39.27:900][700]LogViewport: Scene viewport resized to 752x907, mode Windowed.
+[2024.04.22-14.39.52:083][ 51]LogSlate: Window 'M_Outline' being destroyed
+[2024.04.22-14.39.52:088][ 51]LogSlate: Window 'M_Outline' being destroyed
+[2024.04.22-14.39.52:104][ 51]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-14.39.52:104][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-14.39.56:172][457]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Interactables/MI_Outline_Inst.MI_Outline_Inst
+[2024.04.22-14.39.56:173][457]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-14.39.56:174][457]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-14.39.56:396][457]LogViewport: Scene viewport resized to 2670x1824, mode Windowed.
+[2024.04.22-14.39.58:298][612]LogViewport: Scene viewport resized to 608x163, mode Windowed.
+[2024.04.22-14.40.00:282][612]LogViewport: Scene viewport resized to 305x82, mode Windowed.
+[2024.04.22-14.40.01:081][612]LogViewport: Scene viewport resized to 1335x912, mode Windowed.
+[2024.04.22-14.40.12:055][488]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-14.41.04:668][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.04.22-14.41.06:130][669]LogSlate: Window 'Save Content' being destroyed
+[2024.04.22-14.41.06:154][669]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.41.06:273][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/MI_Outline_Inst" FILE="D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst.uasset" SILENT=true
+[2024.04.22-14.41.06:278][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.04.22-14.41.06:283][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.04.22-14.41.06:287][669]LogSavePackage: Moving output files for package: /Game/Interactables/MI_Outline_Inst
+[2024.04.22-14.41.06:288][669]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/MI_Outline_Inst7B44BE1045A66764A85ED0865B2A1BAF.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst.uasset'
+[2024.04.22-14.41.06:292][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/S0/JZM13BJHDX5Z5XRH9E0UIQ
+[2024.04.22-14.41.06:293][669]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/JZM13BJHDX5Z5XRH9E0UIQEAF65EE34D17C42CA76ECA82762A89EA.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/S0/JZM13BJHDX5Z5XRH9E0UIQ.uasset'
+[2024.04.22-14.41.06:301][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 1.77 sec)
+[2024.04.22-14.41.06:303][669]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.22-14.41.06:303][669]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Interactables/MI_Outline_Inst.MI_Outline_Inst
+[2024.04.22-14.41.06:303][669]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_UAID_2CF05D60969EA4EE01_1153095351
+[2024.04.22-14.41.13:935][299]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-14.41.16:864][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.04.22-14.41.18:135][561]LogSlate: Window 'Save Content' being destroyed
+[2024.04.22-14.41.18:158][561]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.41.18:258][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/MI_Outline_Inst" FILE="D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst.uasset" SILENT=true
+[2024.04.22-14.41.18:264][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.04.22-14.41.18:268][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.04.22-14.41.18:271][561]LogSavePackage: Moving output files for package: /Game/Interactables/MI_Outline_Inst
+[2024.04.22-14.41.18:272][561]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/MI_Outline_InstB2D006084261CD7DF728C4BE84942ACA.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst.uasset'
+[2024.04.22-14.41.18:277][561]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 1.89 sec)
+[2024.04.22-14.41.18:278][561]AssetCheck: New page: Asset Save: MI_Outline_Inst
+[2024.04.22-14.41.18:278][561]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Interactables/MI_Outline_Inst.MI_Outline_Inst
+[2024.04.22-14.41.56:551][647]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-14.41.58:458][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.04.22-14.41.59:559][791]LogSlate: Window 'Save Content' being destroyed
+[2024.04.22-14.41.59:582][791]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.41.59:694][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/MI_Outline_Inst" FILE="D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst.uasset" SILENT=true
+[2024.04.22-14.41.59:699][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.04.22-14.41.59:704][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.04.22-14.41.59:708][791]LogSavePackage: Moving output files for package: /Game/Interactables/MI_Outline_Inst
+[2024.04.22-14.41.59:708][791]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/MI_Outline_InstB20209E9456CAE03525FC4A673DD88DD.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst.uasset'
+[2024.04.22-14.41.59:714][791]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 2.03 sec)
+[2024.04.22-14.41.59:716][791]AssetCheck: New page: Asset Save: MI_Outline_Inst
+[2024.04.22-14.41.59:716][791]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Interactables/MI_Outline_Inst.MI_Outline_Inst
+[2024.04.22-14.43.26:628][972]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.43.26:679][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3F/OYTUF2CRAJVFUIJWBTGXRL
+[2024.04.22-14.43.26:680][972]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/OYTUF2CRAJVFUIJWBTGXRLE3D505C84046DAEB9445BAB282D53C6E.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3F/OYTUF2CRAJVFUIJWBTGXRL.uasset'
+[2024.04.22-14.43.26:688][972]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 2.09 sec)
+[2024.04.22-14.43.26:689][972]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_BCD0741473908CEB01_1667384959
+[2024.04.22-14.43.26:689][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BCD0741473908CEB01_1667384959
+[2024.04.22-14.43.45:291][861]LogSlate: Window 'MI_Outline_Inst' being destroyed
+[2024.04.22-14.43.45:295][861]LogSlate: Window 'MI_Outline_Inst' being destroyed
+[2024.04.22-14.43.45:310][861]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-14.43.45:310][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-14.48.29:601][228]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Interactables/M_Outline.M_Outline
+[2024.04.22-14.48.29:605][228]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-14.48.29:605][228]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-14.48.29:777][228]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.48.29:777][228]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.48.29:777][228]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.48.29:785][228]LogViewport: Scene viewport resized to 376x453, mode Windowed.
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: ================================================
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Total job queries 136, among them cache hits 90 (66.18%)
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Tracking 46 distinct input hashes that result in 27 distinct outputs (58.70%)
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: RAM used: 848.98 KiB of 3.20 GiB budget. Usage: 0.03%
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Shaders Compiled: 30
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Jobs assigned 30, completed 30 (100%)
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Average time worker was idle: 124.59 s
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.19 s
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Job execution time: average 0.37 s, max 0.93 s
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Job life time (pending + execution): average 0.41 s, max 0.93
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Shader code size: average 28.869 KiB, min 3.758 KiB, max 38.902 KiB
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.66 s
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Jobs were issued in 30 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Average processing rate: 8.19 jobs/sec
+[2024.04.22-14.48.29:868][229]LogShaderCompilers: Display: Total thread time: 4.506 s
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display: Total thread preprocess time: 0.716 s
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display: Percentage time preprocessing: 15.90%
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display: Effective parallelization: 1.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.19 sec, max 0.23 sec, min 0.16 sec)
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 0.19 sec, max 0.21 sec, min 0.18 sec)
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    2 times, average 0.15 sec, max 0.16 sec, min 0.15 sec)
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 0.14 sec, max 0.14 sec, min 0.13 sec)
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.84% of total time (compiled    6 times, average 0.19 sec, max 0.23 sec, min 0.16 sec)
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.24% of total time (compiled    6 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.22% of total time (compiled    4 times, average 0.19 sec, max 0.21 sec, min 0.18 sec)
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.49% of total time (compiled    4 times, average 0.12 sec, max 0.17 sec, min 0.09 sec)
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display:                                       FPostProcessMaterialPS - 7.08% of total time (compiled    3 times, average 0.11 sec, max 0.16 sec, min 0.06 sec)
+[2024.04.22-14.48.29:869][229]LogShaderCompilers: Display: ================================================
+[2024.04.22-14.48.29:893][230]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.48.29:893][230]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.48.29:893][230]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.48.31:624][369]LogViewport: Scene viewport resized to 78x28, mode Windowed.
+[2024.04.22-14.48.31:872][369]LogViewport: Scene viewport resized to 155x57, mode Windowed.
+[2024.04.22-14.48.32:139][369]LogViewport: Scene viewport resized to 752x907, mode Windowed.
+[2024.04.22-14.48.49:600][715]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.48.49:600][715]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.48.49:600][715]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.48.49:694][717]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.48.49:694][717]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.48.49:694][717]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.48.53:966][ 90]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.48.53:966][ 90]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.48.53:966][ 90]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.48.54:127][ 93]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.48.54:128][ 93]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.48.54:128][ 93]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.49.03:081][780]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.49.03:081][780]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.49.03:081][780]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.49.03:181][782]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.49.03:181][782]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.49.03:181][782]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.49.06:305][ 67]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.49.06:305][ 67]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.49.06:305][ 67]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.49.06:478][ 70]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.49.06:478][ 70]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.49.06:478][ 70]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.50.05:033][894]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.50.05:033][894]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.05:033][894]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.50.05:236][896]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.50.05:236][896]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.05:236][896]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.50.08:213][147]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.50.08:213][147]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.08:213][147]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.50.08:371][150]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.50.08:371][150]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.08:371][150]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.50.09:239][220]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.50.09:239][220]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.09:239][220]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.50.09:408][223]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.50.09:408][223]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.09:408][223]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.50.10:387][306]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.50.10:387][306]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.10:387][306]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.50.10:544][309]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.50.10:544][309]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.10:544][309]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.50.13:184][510]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.50.13:184][510]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.13:184][510]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.50.13:284][512]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.50.13:284][512]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.13:284][512]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.50.14:981][652]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.50.14:981][652]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.14:981][652]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.50.15:137][655]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.50.15:137][655]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.15:137][655]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.50.17:902][918]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.50.17:902][918]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.17:902][918]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.50.18:074][921]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.50.18:074][921]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.18:074][921]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.50.22:470][279]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.50.22:470][279]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.22:470][279]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.50.22:630][282]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.50.22:630][282]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.50.22:630][282]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.51.29:580][905]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.51.29:580][905]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.51.29:580][905]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.51.29:780][908]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.51.29:781][908]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.51.29:781][908]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.51.37:686][648]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.51.37:686][648]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.51.37:686][648]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: ================================================
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Total job queries 210, among them cache hits 158 (75.24%)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Tracking 52 distinct input hashes that result in 27 distinct outputs (51.92%)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: RAM used: 968.30 KiB of 3.20 GiB budget. Usage: 0.03%
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Shaders Compiled: 36
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Jobs assigned 36, completed 36 (100%)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Average time worker was idle: 361.63 s
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.19 s
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Job execution time: average 0.38 s, max 0.93 s
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Job life time (pending + execution): average 0.42 s, max 0.93
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Shader code size: average 29.512 KiB, min 3.758 KiB, max 38.902 KiB
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.65 s
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Jobs were issued in 36 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Average processing rate: 7.74 jobs/sec
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Total thread time: 5.499 s
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Total thread preprocess time: 0.875 s
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Percentage time preprocessing: 15.91%
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Effective parallelization: 1.18 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 0.19 sec, max 0.21 sec, min 0.18 sec)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.19 sec, max 0.23 sec, min 0.16 sec)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    2 times, average 0.15 sec, max 0.16 sec, min 0.15 sec)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 0.14 sec, max 0.14 sec, min 0.13 sec)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.63% of total time (compiled    8 times, average 0.19 sec, max 0.23 sec, min 0.16 sec)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.33% of total time (compiled    8 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.45% of total time (compiled    5 times, average 0.19 sec, max 0.21 sec, min 0.18 sec)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.21% of total time (compiled    5 times, average 0.11 sec, max 0.17 sec, min 0.09 sec)
+[2024.04.22-14.51.37:853][650]LogShaderCompilers: Display:                                       FPostProcessMaterialPS - 5.80% of total time (compiled    3 times, average 0.11 sec, max 0.16 sec, min 0.06 sec)
+[2024.04.22-14.51.37:854][650]LogShaderCompilers: Display: ================================================
+[2024.04.22-14.51.37:874][651]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.51.37:874][651]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.51.37:874][651]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.52.09:738][  4]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.52.09:738][  4]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.52.09:738][  4]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.52.09:918][  7]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.52.09:918][  7]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.52.09:918][  7]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.52.12:324][194]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.52.12:325][194]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.52.12:325][194]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.52.12:457][197]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.52.12:457][197]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.52.12:457][197]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.52.41:669][607]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.52.41:669][607]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.52.41:669][607]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.52.42:315][640]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.52.42:315][640]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.52.42:315][640]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.52.56:322][366]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.52.56:322][366]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.52.56:322][366]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.52.56:525][369]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.52.56:525][369]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.52.56:525][369]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.53.11:522][110]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.53.11:522][110]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.11:522][110]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.53.11:705][113]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.53.11:705][113]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.11:705][113]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.53.17:021][536]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.53.17:021][536]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.17:021][536]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.53.17:259][539]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.53.17:259][539]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.17:259][539]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.53.19:121][668]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.53.19:121][668]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.19:121][668]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.53.19:255][671]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.53.19:255][671]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.19:255][671]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.53.27:442][439]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.53.27:442][439]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.27:442][439]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.53.27:628][442]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.53.27:629][442]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.27:629][442]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.53.30:566][645]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.53.30:566][645]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.30:566][645]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.53.30:679][648]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.53.30:679][648]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.30:679][648]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.53.36:852][182]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.53.36:853][182]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.36:853][182]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.53.37:039][184]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.53.37:039][184]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.37:039][184]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.53.57:471][357]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.53.57:471][357]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.57:471][357]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.53.57:641][360]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.53.57:641][360]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.53.57:641][360]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.54.13:164][637]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.54.13:164][637]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.54.13:164][637]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.54.13:876][669]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.54.13:876][669]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.54.13:876][669]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.54.36:571][475]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.54.36:571][475]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.54.36:571][475]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.54.36:696][477]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.54.36:696][477]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.54.36:696][477]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.54.46:225][175]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.54.46:225][175]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.54.46:225][175]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: ================================================
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Total job queries 242, among them cache hits 182 (75.21%)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Tracking 60 distinct input hashes that result in 31 distinct outputs (51.67%)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: RAM used: 1.06 MiB of 3.20 GiB budget. Usage: 0.03%
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Shaders Compiled: 44
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Jobs assigned 44, completed 44 (100%)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Average time worker was idle: 312.21 s
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.19 s
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Job execution time: average 0.38 s, max 0.93 s
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Job life time (pending + execution): average 0.43 s, max 0.93
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Shader code size: average 28.788 KiB, min 3.758 KiB, max 38.902 KiB
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.24 s
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Jobs were issued in 44 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Average processing rate: 7.06 jobs/sec
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Total thread time: 6.554 s
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Total thread preprocess time: 1.043 s
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Percentage time preprocessing: 15.92%
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Effective parallelization: 1.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 0.19 sec, max 0.23 sec, min 0.16 sec)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    6 times, average 0.19 sec, max 0.21 sec, min 0.18 sec)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    2 times, average 0.15 sec, max 0.16 sec, min 0.15 sec)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 0.14 sec, max 0.14 sec, min 0.13 sec)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.38% of total time (compiled    9 times, average 0.19 sec, max 0.23 sec, min 0.16 sec)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.68% of total time (compiled    9 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.36% of total time (compiled    6 times, average 0.19 sec, max 0.21 sec, min 0.18 sec)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display:                                       FPostProcessMaterialPS - 10.19% of total time (compiled    5 times, average 0.13 sec, max 0.18 sec, min 0.06 sec)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.00% of total time (compiled    6 times, average 0.11 sec, max 0.17 sec, min 0.09 sec)
+[2024.04.22-14.54.46:329][176]LogShaderCompilers: Display: ================================================
+[2024.04.22-14.54.46:353][177]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.54.46:353][177]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.54.46:353][177]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.03:214][475]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.03:215][475]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.03:215][475]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.03:336][477]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.03:336][477]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.03:336][477]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.06:163][672]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.06:163][672]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.06:163][672]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.06:288][674]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.06:288][674]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.06:288][674]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.15:561][397]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.15:561][397]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.15:561][397]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.15:759][400]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.15:759][400]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.15:759][400]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.17:886][530]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.17:886][530]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.17:886][530]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.18:003][533]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.18:003][533]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.18:003][533]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.34:154][751]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.34:154][751]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.34:154][751]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.34:298][753]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.34:298][753]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.34:298][753]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.35:955][862]LogEditorTransaction: Undo Material Editor: New Expression
+[2024.04.22-14.55.35:998][862]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.35:998][862]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.35:998][862]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.36:215][864]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.36:215][864]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.36:215][864]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.38:247][994]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to '"/Script/Engine.MaterialExpressionScalarParameter'MaterialGraphNode_56.MaterialExpressionScalarParameter_4'",InputName="Bit"))'
+[2024.04.22-14.55.38:266][994]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.38:267][994]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.38:267][994]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.38:376][996]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.38:376][996]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.38:376][996]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.44:464][437]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.44:465][437]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.44:465][437]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.44:577][440]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.44:577][440]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.44:577][440]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.48:087][667]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.48:087][667]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.48:087][667]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.48:202][670]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.48:202][670]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.48:202][670]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.50:039][787]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.50:039][787]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.50:039][787]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.50:156][790]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.50:156][790]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.50:156][790]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.55.53:966][ 63]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.55.53:966][ 63]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.53:966][ 63]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.55.54:134][ 66]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.55.54:134][ 66]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.55.54:134][ 66]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.56.30:969][764]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18414092503958012161
+[2024.04.22-14.56.30:969][764]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2024.04.22-14.56.42:346][650]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.56.42:346][650]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.56.42:346][650]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.56.42:536][653]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.56.42:536][653]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.56.42:536][653]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.56.55:434][842]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.56.55:434][842]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.56.55:434][842]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.56.55:630][845]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.56.55:630][845]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.56.55:630][845]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.57.01:982][324]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.57.01:982][324]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.57.01:982][324]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.57.02:175][327]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.57.02:175][327]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.57.02:175][327]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.57.04:480][491]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.57.04:480][491]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.57.04:480][491]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.57.04:645][494]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.57.04:645][494]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.57.04:645][494]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.57.06:734][651]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.57.06:734][651]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.57.06:734][651]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.57.06:901][653]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.57.06:901][653]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.57.06:901][653]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.57.30:363][144]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.57.30:363][144]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.57.30:363][144]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.57.30:504][146]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.57.30:504][146]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(9)
+[2024.04.22-14.57.30:504][146]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.57.35:353][518]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.57.35:353][518]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.57.35:353][518]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.57.36:000][545]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.57.36:000][545]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.57.36:000][545]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.57.51:705][740]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.57.51:705][740]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.57.51:705][740]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.57.51:855][742]LogShaderCompilers: Display: ================================================
+[2024.04.22-14.57.51:855][742]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.22-14.57.51:855][742]LogShaderCompilers: Display: Total job queries 280, among them cache hits 218 (77.86%)
+[2024.04.22-14.57.51:855][742]LogShaderCompilers: Display: Tracking 62 distinct input hashes that result in 32 distinct outputs (51.61%)
+[2024.04.22-14.57.51:855][742]LogShaderCompilers: Display: RAM used: 1.09 MiB of 3.20 GiB budget. Usage: 0.03%
+[2024.04.22-14.57.51:855][742]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.22-14.57.51:855][742]LogShaderCompilers: Display: Shaders Compiled: 46
+[2024.04.22-14.57.51:855][742]LogShaderCompilers: Display: Jobs assigned 46, completed 46 (100%)
+[2024.04.22-14.57.51:855][742]LogShaderCompilers: Display: Average time worker was idle: 306.96 s
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.19 s
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Job execution time: average 0.38 s, max 0.93 s
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Job life time (pending + execution): average 0.43 s, max 0.93
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Shader code size: average 28.352 KiB, min 3.758 KiB, max 38.902 KiB
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.68 s
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Jobs were issued in 46 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Average processing rate: 6.89 jobs/sec
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Total thread time: 6.795 s
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Total thread preprocess time: 1.085 s
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Percentage time preprocessing: 15.97%
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Effective parallelization: 1.02 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 0.19 sec, max 0.23 sec, min 0.16 sec)
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    6 times, average 0.19 sec, max 0.21 sec, min 0.18 sec)
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    2 times, average 0.15 sec, max 0.16 sec, min 0.15 sec)
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display:                                       FPostProcessMaterialPS (compiled    6 times, average 0.15 sec, max 0.21 sec, min 0.06 sec)
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.44% of total time (compiled    9 times, average 0.19 sec, max 0.23 sec, min 0.16 sec)
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.77% of total time (compiled    9 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.75% of total time (compiled    6 times, average 0.19 sec, max 0.21 sec, min 0.18 sec)
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display:                                       FPostProcessMaterialPS - 12.96% of total time (compiled    6 times, average 0.15 sec, max 0.21 sec, min 0.06 sec)
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.64% of total time (compiled    6 times, average 0.11 sec, max 0.17 sec, min 0.09 sec)
+[2024.04.22-14.57.51:856][742]LogShaderCompilers: Display: ================================================
+[2024.04.22-14.57.51:879][743]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.57.51:879][743]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.57.51:879][743]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.57.53:737][877]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.57.53:737][877]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.57.53:737][877]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.57.54:319][903]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.57.54:319][903]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.57.54:319][903]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.58.09:014][790]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-14.58.09:020][790]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.58.09:020][790]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.58.09:020][790]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.58.09:118][793]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.58.09:118][793]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.58.09:118][793]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.58.15:973][221]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-14.58.15:979][221]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-14.58.15:979][221]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.58.15:979][221]MaterialEditorStats: Shader Count: 0
+[2024.04.22-14.58.16:073][224]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.58.16:073][224]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.58.16:073][224]MaterialEditorStats: Shader Count: 2
+[2024.04.22-14.58.18:203][363]LogMaterialEditor: Saving and Compiling material M_Outline
+[2024.04.22-14.58.18:252][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.04.22-14.58.18:310][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.04.22-14.58.18:319][363]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-14.58.19:009][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/M_Outline" FILE="D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/M_Outline.uasset" SILENT=true
+[2024.04.22-14.58.19:019][363]LogSavePackage: Moving output files for package: /Game/Interactables/M_Outline
+[2024.04.22-14.58.19:020][363]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/M_Outline6AD50F8B48434E2597018F8BCC4254EE.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/M_Outline.uasset'
+[2024.04.22-14.58.19:024][363]LogFileHelpers: InternalPromptForCheckoutAndSave took 706 ms (total: 2.79 sec)
+[2024.04.22-14.58.19:026][363]AssetCheck: New page: Asset Save: M_Outline
+[2024.04.22-14.58.19:026][363]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Interactables/M_Outline.M_Outline
+[2024.04.22-14.58.19:027][363]MaterialEditorStats: Base pass shader without light map: 87 instructions
+[2024.04.22-14.58.19:027][363]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.04.22-14.58.19:027][363]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-14.58.19:027][363]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-14.58.19:027][363]MaterialEditorStats: Shader Count: 6
+[2024.04.22-14.59.33:465][986]LogSlate: External Image Picker: DecompressImage failed
+[2024.04.22-14.59.49:208][846]LogSlate: Window 'Project Settings' being destroyed
+[2024.04.22-14.59.49:214][846]LogSlate: Window 'Project Settings' being destroyed
+[2024.04.22-15.00.02:965][361]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.22-15.00.02:965][361]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-15.00.02:965][361]MaterialEditorStats: Shader Count: 0
+[2024.04.22-15.00.03:076][364]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-15.00.03:076][364]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-15.00.03:076][364]MaterialEditorStats: Shader Count: 2
+[2024.04.22-15.00.04:563][469]LogMaterialEditor: Saving and Compiling material M_Outline
+[2024.04.22-15.00.04:608][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.22-15.00.04:662][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.04.22-15.00.04:670][469]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-15.00.04:790][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/M_Outline" FILE="D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/M_Outline.uasset" SILENT=true
+[2024.04.22-15.00.04:801][469]LogSavePackage: Moving output files for package: /Game/Interactables/M_Outline
+[2024.04.22-15.00.04:801][469]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/M_OutlineE9BB748E49ED2E19AA70CB8AA0B5C69A.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/M_Outline.uasset'
+[2024.04.22-15.00.04:808][469]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 2.93 sec)
+[2024.04.22-15.00.04:809][469]AssetCheck: New page: Asset Save: M_Outline
+[2024.04.22-15.00.04:809][469]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Interactables/M_Outline.M_Outline
+[2024.04.22-15.00.04:810][469]MaterialEditorStats: Base pass shader without light map: 87 instructions
+[2024.04.22-15.00.04:810][469]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.04.22-15.00.04:810][469]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.22-15.00.04:810][469]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(10)
+[2024.04.22-15.00.04:810][469]MaterialEditorStats: Shader Count: 6
+[2024.04.22-15.00.07:057][617]LogSlate: Window 'M_Outline' being destroyed
+[2024.04.22-15.00.07:061][617]LogSlate: Window 'M_Outline' being destroyed
+[2024.04.22-15.00.07:080][617]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-15.00.07:081][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-15.00.11:181][ 32]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Interactables/MI_Outline_Inst.MI_Outline_Inst
+[2024.04.22-15.00.11:183][ 32]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-15.00.11:183][ 32]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-15.00.11:374][ 32]LogViewport: Scene viewport resized to 2670x1824, mode Windowed.
+[2024.04.22-15.00.25:356][380]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-15.00.26:214][446]LogViewport: Scene viewport resized to 580x123, mode Windowed.
+[2024.04.22-15.00.27:247][446]LogViewport: Scene viewport resized to 291x62, mode Windowed.
+[2024.04.22-15.00.28:065][446]LogViewport: Scene viewport resized to 1335x912, mode Windowed.
+[2024.04.22-15.00.34:876][ 17]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-15.01.02:576][566]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-15.01.50:270][642]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-15.01.51:289][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.04.22-15.01.52:684][735]LogSlate: Window 'Save Content' being destroyed
+[2024.04.22-15.01.52:710][735]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-15.01.52:809][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/MI_Outline_Inst" FILE="D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst.uasset" SILENT=true
+[2024.04.22-15.01.52:816][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.04.22-15.01.52:821][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.04.22-15.01.52:826][735]LogSavePackage: Moving output files for package: /Game/Interactables/MI_Outline_Inst
+[2024.04.22-15.01.52:826][735]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/MI_Outline_InstE4C84E7B46B66DA652A8E8A308743C5F.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/MI_Outline_Inst.uasset'
+[2024.04.22-15.01.52:830][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3F/OYTUF2CRAJVFUIJWBTGXRL
+[2024.04.22-15.01.52:831][735]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/OYTUF2CRAJVFUIJWBTGXRLFB36B693462BB5EC65A9258D07C208A3.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3F/OYTUF2CRAJVFUIJWBTGXRL.uasset'
+[2024.04.22-15.01.52:842][735]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 3.06 sec)
+[2024.04.22-15.01.52:844][735]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.22-15.01.52:844][735]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Interactables/MI_Outline_Inst.MI_Outline_Inst
+[2024.04.22-15.01.52:844][735]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BCD0741473908CEB01_1667384959
+[2024.04.22-15.01.55:245][958]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.22-15.01.55:252][958]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.22-15.01.55:252][958]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.22-15.01.55:257][958]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 4 ms (total: 56 ms)
+[2024.04.22-15.01.55:257][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-15.01.55:257][958]PIE: New page: PIE session: ThirdPersonMap (22 Apr 2024, 19:01:55)
+[2024.04.22-15.01.55:257][958]LogPlayLevel: Display: Creating online subsystem for client :Context_28
+[2024.04.22-15.01.55:260][958]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.04.22-15.01.55:302][959]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.22-15.01.55:311][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008818s)
+[2024.04.22-15.01.55:311][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008855s)
+[2024.04.22-15.01.55:315][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.04.22-15.01.55:319][959]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-15.01.55:319][959]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-15.01.55:319][959]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.22-15.01.55:320][959]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.22-15.01.55:320][959]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.22-15.01.55:320][959]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.22-15.01.55:320][959]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.22-15.01.55:322][959]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.22-15.01.55:322][959]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 833 ms)
+[2024.04.22-15.01.55:322][959]LogPlayLevel: PIE: World Init took: (0.003014s)
+[2024.04.22-15.01.55:322][959]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.04.22-15.01.55:322][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-15.01.55:322][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-15.01.55:322][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-15.01.55:322][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-15.01.55:322][959]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-15.01.55:322][959]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-15.01.55:322][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-15.01.55:322][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-15.01.55:322][959]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-15.01.55:322][959]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-15.01.55:322][959]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-15.01.55:324][959]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-15.01.55:365][959]LogAudioMixer: Display: Using Audio Hardware Device LG TV SSCR2 (NVIDIA High Definition Audio)
+[2024.04.22-15.01.55:365][959]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-15.01.55:365][959]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-15.01.55:365][959]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-15.01.55:366][959]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.04.22-15.01.55:366][959]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.04.22-15.01.55:367][959]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.04.22-15.01.55:367][959]LogInit: FAudioDevice initialized with ID 14.
+[2024.04.22-15.01.55:367][959]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.04.22-15.01.55:367][959]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2024.04.22-15.01.55:367][959]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.22-15.01.55:431][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-15.01.55:431][959]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.22-15.01.55:442][959]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.22-17.01.55
+[2024.04.22-15.01.55:443][959]LogWorld: Bringing up level for play took: 0.011790
+[2024.04.22-15.01.55:449][959]PIE: Server logged in
+[2024.04.22-15.01.55:450][959]PIE: Play in editor total start time 0.197 seconds.
+[2024.04.22-15.01.55:470][959]LogViewport: Scene viewport resized to 3864x2020, mode Windowed.
+[2024.04.22-15.01.59:178][223]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.01.59:178][223]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_0
+[2024.04.22-15.01.59:179][223]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.01.59:179][223]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_0
+[2024.04.22-15.01.59:194][224]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.01.59:195][224]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_1
+[2024.04.22-15.01.59:195][224]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.01.59:195][224]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_1
+[2024.04.22-15.01.59:210][225]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.01.59:210][225]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_2
+[2024.04.22-15.01.59:210][225]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.01.59:210][225]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_2
+[2024.04.22-15.01.59:434][240]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.01.59:434][240]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_3
+[2024.04.22-15.01.59:434][240]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.01.59:434][240]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_3
+[2024.04.22-15.02.01:766][390]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.02.01:766][390]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_4
+[2024.04.22-15.02.01:766][390]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.02.01:766][390]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_4
+[2024.04.22-15.02.01:846][395]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.02.01:846][395]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_5
+[2024.04.22-15.02.01:846][395]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.02.01:846][395]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_5
+[2024.04.22-15.02.02:314][426]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.02.02:314][426]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_6
+[2024.04.22-15.02.02:314][426]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.04.22-15.02.02:314][426]LogScript: Warning: Script Msg called by: WB_BuySell_Row_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_12.WB_BuySell_Main_C_0.WidgetTree_0.WB_BuySell_Row_C_6
+[2024.04.22-15.02.10:872][ 53]LogDerivedDataCache: C:/Users/admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.086 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 620 files in 1134 folders with total size 26 MiB.
+[2024.04.22-15.02.25:640][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-15.02.25:640][188]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.22-15.02.25:640][188]LogSlate: Window 'iwabo Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.22-15.02.25:644][188]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-15.02.25:645][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-15.02.25:645][188]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.22-15.02.25:648][188]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-15.02.25:651][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-15.02.25:660][188]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.22-15.02.25:660][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.22-15.02.25:661][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.22-15.02.25:670][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.04.22-15.02.25:750][189]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.04.22-15.02.28:161][418]LogSlate: Window 'MI_Outline_Inst' being destroyed
+[2024.04.22-15.02.28:166][418]LogSlate: Window 'MI_Outline_Inst' being destroyed
+[2024.04.22-15.02.28:182][418]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-15.02.28:183][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
