@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pickup Truck
+* source:	https://sketchfab.com/3d-models/pickup-truck-616761063ad845fe84e1d965bdce5595
+* author:	Han66st (https://sketchfab.com/Han66st)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pickup Truck" (https://sketchfab.com/3d-models/pickup-truck-616761063ad845fe84e1d965bdce5595) by Han66st (https://sketchfab.com/Han66st) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
