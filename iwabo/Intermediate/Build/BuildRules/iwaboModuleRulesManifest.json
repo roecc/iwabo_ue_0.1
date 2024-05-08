@@ -1,9 +1,9 @@
 {
 	"SourceFiles": [
-		"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Source/iwabo/iwabo.Build.cs",
-		"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Plugins/DialogueExtension/Source/DialogueExtension/DialogueExtension.Build.cs",
-		"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Source/iwabo.Target.cs",
-		"/Users/admin/Documents/projects/iwabo/unreal/iwabo_ue_0.1/iwabo/Source/iwaboEditor.Target.cs"
+		"D:\\docs\\___IWABO\\unreal\\prototypes\\iwabo_ue_0.1\\iwabo\\Source\\iwabo\\iwabo.Build.cs",
+		"D:\\docs\\___IWABO\\unreal\\prototypes\\iwabo_ue_0.1\\iwabo\\Plugins\\DialogueExtension\\Source\\DialogueExtension\\DialogueExtension.Build.cs",
+		"D:\\docs\\___IWABO\\unreal\\prototypes\\iwabo_ue_0.1\\iwabo\\Source\\iwabo.Target.cs",
+		"D:\\docs\\___IWABO\\unreal\\prototypes\\iwabo_ue_0.1\\iwabo\\Source\\iwaboEditor.Target.cs"
 	],
 	"EngineVersion": "5.3.2"
 }
