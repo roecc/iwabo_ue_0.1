@@ -6226,3 +6226,15 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.08-09.49.52:201][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 678 ms)
 [2024.05.08-09.49.52:202][641]AssetCheck: New page: Asset Save: BP_Camera
 [2024.05.08-09.49.52:202][641]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CameraAction/BP_Camera.BP_Camera
+[2024.05.08-09.51.25:365][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.05.08-09.51.26:639][319]LogSlate: Window 'Save Content' being destroyed
+[2024.05.08-09.51.26:646][319]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.08-09.51.26:756][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Flashlight/BP_Flashlight" FILE="D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/Flashlight/BP_Flashlight.uasset" SILENT=true
+[2024.05.08-09.51.26:768][319]LogSavePackage: Moving output files for package: /Game/Interactables/Flashlight/BP_Flashlight
+[2024.05.08-09.51.26:768][319]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/BP_FlashlightED39439542C338FC759602BEDBC1D63D.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/Interactables/Flashlight/BP_Flashlight.uasset'
+[2024.05.08-09.51.26:772][319]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PS/U938JQTNQ7HC3LQLNELSPI
+[2024.05.08-09.51.26:772][319]LogSavePackage: Moving 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Saved/U938JQTNQ7HC3LQLNELSPI8442DD6543B6725835FA9DAD80F569DF.tmp' to 'D:/docs/___IWABO/unreal/prototypes/iwabo_ue_0.1/iwabo/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PS/U938JQTNQ7HC3LQLNELSPI.uasset'
+[2024.05.08-09.51.26:783][319]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 815 ms)
+[2024.05.08-09.51.26:785][319]AssetCheck: New page: Asset Save: multiple assets
+[2024.05.08-09.51.26:785][319]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Interactables/Flashlight/BP_Flashlight.BP_Flashlight
+[2024.05.08-09.51.26:785][319]LogContentValidation: Display: Validating /Game/Interactables/Flashlight/BP_Flashlight.BP_Flashlight_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Flashlight_C_UAID_BCD07414739053F201_1758935319
